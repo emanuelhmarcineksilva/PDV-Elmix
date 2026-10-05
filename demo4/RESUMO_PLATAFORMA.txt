@@ -1,0 +1,25 @@
+PDV ELMIX — RESUMO DA PLATAFORMA
+
+Visão geral
+O PDV Elmix é um sistema desktop de ponto de venda e controle financeiro desenvolvido para apoiar a rotina de uma loja de produtos naturais. A plataforma reúne registro de vendas, acompanhamento do caixa e consulta de indicadores em uma interface personalizável.
+
+Escopo funcional
+- Frente de caixa (PDV): inclusão de itens por descrição e valor, cálculo do total, registro do valor pago e cálculo do troco.
+- Histórico de vendas: consulta dos registros e detalhes de cada venda, com opções para editar ou excluir.
+- Fluxo de caixa: registro de entradas associadas às vendas e lançamento manual de saídas/despesas.
+- Gestão de empresas: cadastro de empresas/fornecedores para relacionar às movimentações financeiras.
+- Consultas financeiras: filtros por período, visão de entradas, saídas e saldo, gráficos comparativos e resumo do faturamento semanal e mensal.
+- Backup: geração de relatório em TXT por período e restauração de backup completo dos dados e configurações.
+- Personalização: ajuste do nome da loja, cores, aparência de botões e opções visuais da interface.
+
+Público e benefício
+Pensado para pequenos negócios que precisam registrar vendas e acompanhar movimentações financeiras em um único aplicativo. O sistema facilita a operação do caixa e oferece uma visão resumida do desempenho financeiro, sem exigir uma plataforma de gestão empresarial complexa.
+
+Plataforma e armazenamento
+Aplicativo desktop com interface JavaFX, executado localmente. Os dados são armazenados em arquivos locais por serialização Java; não se trata de uma solução baseada em banco de dados ou serviço em nuvem.
+
+Limites do escopo apresentado
+O escopo identificado cobre o registro manual de itens e valores, vendas, movimentações financeiras, consultas, personalização e backup. Não caracteriza controle de estoque ou catálogo integrado de produtos, emissão fiscal, integração com meios de pagamento, operação multiusuário em rede ou sincronização em nuvem.
+
+Mensagem-chave para apresentação
+“O PDV Elmix centraliza o registro de vendas e o controle básico do fluxo de caixa de uma loja de produtos naturais, com histórico, indicadores financeiros e backup em uma aplicação desktop simples e personalizável.”

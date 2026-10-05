@@ -1,0 +1,172 @@
+{
+  ".github/modernize/java-upgrade/hooks/scripts/recordToolUse.ps1": {
+    "mtime": 1791210059.6813283,
+    "ast_hash": "9ecf230451dfd20ff4e0a2a01e80a4e6",
+    "semantic_hash": "9ecf230451dfd20ff4e0a2a01e80a4e6"
+  },
+  ".github/modernize/java-upgrade/hooks/scripts/recordToolUse.sh": {
+    "mtime": 1791210059.6823282,
+    "ast_hash": "e25ae501603ce6bf738198f5ce32ba83",
+    "semantic_hash": "e25ae501603ce6bf738198f5ce32ba83"
+  },
+  ".opencode/opencode.json": {
+    "mtime": 1789825285.567469,
+    "ast_hash": "e5f74d14a81702b55bdf53b33ec991d7",
+    "semantic_hash": ""
+  },
+  ".opencode/plugins/graphify.js": {
+    "mtime": 1789785427.4149728,
+    "ast_hash": "64ccd3c03dbfe0980b6095766f5c4e52",
+    "semantic_hash": "64ccd3c03dbfe0980b6095766f5c4e52"
+  },
+  "demo4/mvnw": {
+    "mtime": 1782486612.5394523,
+    "ast_hash": "2deada3b45c9311e2b687cfdf6c6063f",
+    "semantic_hash": "2deada3b45c9311e2b687cfdf6c6063f"
+  },
+  "demo4/src/main/java/module-info.java": {
+    "mtime": 1789786383.2185605,
+    "ast_hash": "c3ff8e585fea58f0e1631793de9057e3",
+    "semantic_hash": ""
+  },
+  "demo4/src/main/java/pdv/demo4/ElmixApp.java": {
+    "mtime": 1791212692.0408564,
+    "ast_hash": "280001e997576fd113a6a7fd089c94d9",
+    "semantic_hash": ""
+  },
+  "demo4/src/main/java/pdv/demo4/Launcher.java": {
+    "mtime": 1782487356.4643252,
+    "ast_hash": "ede5051d3661f3a229ec23a01ed63c03",
+    "semantic_hash": "ede5051d3661f3a229ec23a01ed63c03"
+  },
+  "demo4/src/main/java/pdv/demo4/controller/ConfiguracaoController.java": {
+    "mtime": 1789786091.6601374,
+    "ast_hash": "fcc270fc39eb1211ce6c16ead56d4ea2",
+    "semantic_hash": ""
+  },
+  "demo4/src/main/java/pdv/demo4/controller/FinanceiroController.java": {
+    "mtime": 1789830986.4233873,
+    "ast_hash": "ee74530034662545a77bb8aa65b9ffc7",
+    "semantic_hash": ""
+  },
+  "demo4/src/main/java/pdv/demo4/controller/VendaController.java": {
+    "mtime": 1791212691.975855,
+    "ast_hash": "47fcdaeedba8da4c608e07bf94a70128",
+    "semantic_hash": ""
+  },
+  "demo4/src/main/java/pdv/demo4/model/Configuracao.java": {
+    "mtime": 1782487043.8591166,
+    "ast_hash": "9fdbb58d76f6aede8a34fa0d9c7e1c97",
+    "semantic_hash": "9fdbb58d76f6aede8a34fa0d9c7e1c97"
+  },
+  "demo4/src/main/java/pdv/demo4/model/DadosFinanceiros.java": {
+    "mtime": 1788983947.6154451,
+    "ast_hash": "406a5cceba4f7f17817d3c433050ffba",
+    "semantic_hash": "406a5cceba4f7f17817d3c433050ffba"
+  },
+  "demo4/src/main/java/pdv/demo4/model/Empresa.java": {
+    "mtime": 1789784810.617057,
+    "ast_hash": "de52263f26c6dcf0dd352fb36a181abc",
+    "semantic_hash": "de52263f26c6dcf0dd352fb36a181abc"
+  },
+  "demo4/src/main/java/pdv/demo4/model/ItemVenda.java": {
+    "mtime": 1782487031.814908,
+    "ast_hash": "917def99dcd989164a60f028c0007ece",
+    "semantic_hash": "917def99dcd989164a60f028c0007ece"
+  },
+  "demo4/src/main/java/pdv/demo4/model/MovimentacaoCaixa.java": {
+    "mtime": 1788983937.2090132,
+    "ast_hash": "a217b6b26e024615796823a3c1ef2805",
+    "semantic_hash": "a217b6b26e024615796823a3c1ef2805"
+  },
+  "demo4/src/main/java/pdv/demo4/model/OrigemMovimentacao.java": {
+    "mtime": 1788983915.2980769,
+    "ast_hash": "8f7d0c61fefe164fc24f2e02313d6ba2",
+    "semantic_hash": "8f7d0c61fefe164fc24f2e02313d6ba2"
+  },
+  "demo4/src/main/java/pdv/demo4/model/TipoMovimentacao.java": {
+    "mtime": 1788983904.0035796,
+    "ast_hash": "3c6160003f6d10e0830e0f5c9a36345d",
+    "semantic_hash": "3c6160003f6d10e0830e0f5c9a36345d"
+  },
+  "demo4/src/main/java/pdv/demo4/model/Venda.java": {
+    "mtime": 1791212691.456844,
+    "ast_hash": "fe876cf6c8a4ae5a5682e35703a37191",
+    "semantic_hash": ""
+  },
+  "demo4/src/main/java/pdv/demo4/util/PersistenciaUtil.java": {
+    "mtime": 1782487059.310159,
+    "ast_hash": "72c2d42db3e65ef9abea694b8b1beba3",
+    "semantic_hash": "72c2d42db3e65ef9abea694b8b1beba3"
+  },
+  "demo4/src/main/java/pdv/demo4/view/TelaBackupView.java": {
+    "mtime": 1789786077.9169104,
+    "ast_hash": "53989dddc5472fcda413dca820ca101a",
+    "semantic_hash": ""
+  },
+  "demo4/src/main/java/pdv/demo4/view/TelaConfigView.java": {
+    "mtime": 1787938114.290566,
+    "ast_hash": "2bc77ea9879bec43bca071379ea2a770",
+    "semantic_hash": "2bc77ea9879bec43bca071379ea2a770"
+  },
+  "demo4/src/main/java/pdv/demo4/view/TelaContaView.java": {
+    "mtime": 1782492234.3190799,
+    "ast_hash": "7c6d0e84bc72e83e42c7a9ea72ab2d10",
+    "semantic_hash": "7c6d0e84bc72e83e42c7a9ea72ab2d10"
+  },
+  "demo4/src/main/java/pdv/demo4/view/TelaFinanceiroView.java": {
+    "mtime": 1789848441.198147,
+    "ast_hash": "1fa87915015767358b4cd1c279754862",
+    "semantic_hash": ""
+  },
+  "demo4/src/main/java/pdv/demo4/view/TelaHistoricoView.java": {
+    "mtime": 1789839259.6954954,
+    "ast_hash": "f45e09c12d9baf4c2c27a4a831980cd8",
+    "semantic_hash": ""
+  },
+  "demo4/src/main/java/pdv/demo4/view/TelaInicialView.java": {
+    "mtime": 1789831008.0060122,
+    "ast_hash": "2188110bf6b25039df1f83028e266db5",
+    "semantic_hash": ""
+  },
+  "demo4/src/main/java/pdv/demo4/view/TelaMoneyView.java": {
+    "mtime": 1782588575.7940302,
+    "ast_hash": "00bb424eba871e1277785e3148fd8777",
+    "semantic_hash": "00bb424eba871e1277785e3148fd8777"
+  },
+  "demo4/src/main/java/pdv/demo4/view/TelaPDVView.java": {
+    "mtime": 1789847223.6693015,
+    "ast_hash": "aa7068e75975377eb94ee3160ca2fc21",
+    "semantic_hash": ""
+  },
+  ".opencode/package.json": {
+    "mtime": 1789825416.5253239,
+    "ast_hash": "f94937b0f3b84759b51b101818e57384",
+    "semantic_hash": ""
+  },
+  ".vscode/settings.json": {
+    "mtime": 1791212850.5210834,
+    "ast_hash": "b9cbf622fba77d04207cc1a07d4f0dbe",
+    "semantic_hash": ""
+  },
+  "demo4/src/main/java/pdv/demo4/model/BackupCompleto.java": {
+    "mtime": 1789786077.7759268,
+    "ast_hash": "adb84d22d31e7bdca539182b8ccdfafe",
+    "semantic_hash": ""
+  },
+  "demo4/src/main/java/pdv/demo4/view/TelaEmpresasView.java": {
+    "mtime": 1789844938.5205743,
+    "ast_hash": "ebc6cd5a1f402b8b08b6ecdb8bc9e7dd",
+    "semantic_hash": ""
+  },
+  ".vscode/launch.json": {
+    "mtime": 1789846197.0643997,
+    "ast_hash": "c824da88da6d05d9100e79acb2fe8413",
+    "semantic_hash": ""
+  },
+  "demo4/src/test/java/pdv/demo4/model/VendaTest.java": {
+    "mtime": 1791212738.824865,
+    "ast_hash": "bd742e9de6dbf781bb6a777874d30dd2",
+    "semantic_hash": ""
+  }
+}
