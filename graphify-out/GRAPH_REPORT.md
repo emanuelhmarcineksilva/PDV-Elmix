@@ -1,16 +1,16 @@
 # Graph Report - PDV-Elmix  (2026-10-07)
 
 ## Corpus Check
-- 43 files · ~27,092 words
+- 44 files · ~27,554 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 683 nodes · 1586 edges · 29 communities (25 shown, 4 thin omitted)
-- Extraction: 77% EXTRACTED · 23% INFERRED · 0% AMBIGUOUS · INFERRED: 369 edges (avg confidence: 0.8)
+- 688 nodes · 1604 edges · 34 communities (29 shown, 5 thin omitted)
+- Extraction: 77% EXTRACTED · 23% INFERRED · 0% AMBIGUOUS · INFERRED: 375 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `cdcffddc`
+- Built from commit: `d199aa31`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -37,6 +37,10 @@
 - [[_COMMUNITY_Community 19|Community 19]]
 - [[_COMMUNITY_Community 26|Community 26]]
 - [[_COMMUNITY_Community 27|Community 27]]
+- [[_COMMUNITY_Community 29|Community 29]]
+- [[_COMMUNITY_Community 30|Community 30]]
+- [[_COMMUNITY_Community 31|Community 31]]
+- [[_COMMUNITY_Community 32|Community 32]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `ElmixApp` - 44 edges
@@ -52,9 +56,9 @@
 
 ## Surprising Connections (you probably didn't know these)
 - `BackupCompleto` --implements--> `Serializable`  [EXTRACTED]
-  demo4/src/main/java/pdv/demo4/model/BackupCompleto.java →   _Bridges community 7 → community 10_
+  demo4/src/main/java/pdv/demo4/model/BackupCompleto.java →   _Bridges community 9 → community 10_
 - `Configuracao` --implements--> `Serializable`  [EXTRACTED]
-  demo4/src/main/java/pdv/demo4/model/Configuracao.java →   _Bridges community 10 → community 2_
+  demo4/src/main/java/pdv/demo4/model/Configuracao.java →   _Bridges community 10 → community 30_
 - `Empresa` --implements--> `Serializable`  [EXTRACTED]
   demo4/src/main/java/pdv/demo4/model/Empresa.java →   _Bridges community 10 → community 12_
 - `EstadoFatura` --implements--> `Serializable`  [EXTRACTED]
@@ -65,10 +69,10 @@
 ## Import Cycles
 - None detected.
 
-## Communities (29 total, 4 thin omitted)
+## Communities (34 total, 5 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.08
+Cohesion: 0.07
 Nodes (21): Application, ElmixApp, Venda, Override, String, Venda, ItemVenda, List (+13 more)
 
 ### Community 1 - "Community 1"
@@ -76,8 +80,8 @@ Cohesion: 0.07
 Nodes (22): ComboBox, BigDecimal, BorderPane, Button, Configuracao, Consumer, DatePicker, Empresa (+14 more)
 
 ### Community 2 - "Community 2"
-Cohesion: 0.06
-Nodes (19): CheckBox, String, BorderPane, Button, Configuracao, HBox, String, TextField (+11 more)
+Cohesion: 0.15
+Nodes (8): CheckBox, BorderPane, Button, Configuracao, HBox, String, TextField, TelaConfigView
 
 ### Community 3 - "Community 3"
 Cohesion: 0.14
@@ -92,20 +96,20 @@ Cohesion: 0.10
 Nodes (13): Button, Configuracao, Consumer, HBox, ItemVenda, Label, ListView, StackPane (+5 more)
 
 ### Community 6 - "Community 6"
-Cohesion: 0.09
-Nodes (13): BorderPane, Button, Configuracao, Label, String, BorderPane, Button, Configuracao (+5 more)
+Cohesion: 0.25
+Nodes (4): BorderPane, Button, Label, TelaInicialView
 
 ### Community 7 - "Community 7"
-Cohesion: 0.06
-Nodes (20): ConfiguracaoController, VendaController, Configuracao, List, LocalDate, String, Venda, Configuracao (+12 more)
+Cohesion: 0.12
+Nodes (11): VendaController, List, LocalDate, String, Venda, List, Object, String (+3 more)
 
 ### Community 8 - "Community 8"
 Cohesion: 0.15
 Nodes (8): BigDecimal, Empresa, LocalDateTime, Override, String, MovimentacaoCaixa, OrigemMovimentacao, TipoMovimentacao
 
 ### Community 9 - "Community 9"
-Cohesion: 0.14
-Nodes (7): BorderPane, Button, Configuracao, DatePicker, Label, TextArea, TelaBackupView
+Cohesion: 0.07
+Nodes (16): ConfiguracaoController, Configuracao, Configuracao, DadosFinanceiros, List, Venda, BorderPane, Button (+8 more)
 
 ### Community 10 - "Community 10"
 Cohesion: 0.14
@@ -120,8 +124,8 @@ Cohesion: 0.09
 Nodes (12): LocalDate, Override, String, BorderPane, Button, Configuracao, Empresa, List (+4 more)
 
 ### Community 13 - "Community 13"
-Cohesion: 0.13
-Nodes (11): BigDecimal, Empresa, EstadoFatura, LocalDate, LocalDateTime, String, FaturaFinanceira, LocalDate (+3 more)
+Cohesion: 0.12
+Nodes (12): BigDecimal, Empresa, EstadoFatura, LocalDate, LocalDateTime, String, FaturaFinanceira, LocalDate (+4 more)
 
 ### Community 16 - "Community 16"
 Cohesion: 0.14
@@ -139,25 +143,37 @@ Nodes (3): Executar, PDV, Requisitos
 Cohesion: 0.06
 Nodes (24): FaturaFinanceira, LocalDate, LocalDateTime, String, FaturaFinanceira, LocalDate, LocalDateTime, Override (+16 more)
 
+### Community 29 - "Community 29"
+Cohesion: 0.15
+Nodes (8): BorderPane, Button, Configuracao, HBox, String, TextArea, VBox, TelaMoneyView
+
+### Community 31 - "Community 31"
+Cohesion: 0.24
+Nodes (4): Configuracao, StackPane, String, VBox
+
+### Community 32 - "Community 32"
+Cohesion: 0.19
+Nodes (6): BorderPane, Button, Configuracao, Label, String, TelaContaView
+
 ## Knowledge Gaps
 - **85 isolated node(s):** `recordToolUse.sh script`, `Override`, `Parent`, `EventHandler`, `TelaEmpresasView` (+80 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `ElmixApp` connect `Community 0` to `Community 2`, `Community 3`, `Community 6`, `Community 7`, `Community 12`?**
-  _High betweenness centrality (0.105) - this node is a cross-community bridge._
+- **Why does `ElmixApp` connect `Community 0` to `Community 2`, `Community 3`, `Community 6`, `Community 7`, `Community 9`, `Community 12`?**
+  _High betweenness centrality (0.107) - this node is a cross-community bridge._
 - **Why does `TelaFinanceiroView` connect `Community 1` to `Community 3`?**
-  _High betweenness centrality (0.082) - this node is a cross-community bridge._
-- **Why does `Configuracao` connect `Community 2` to `Community 10`, `Community 6`?**
-  _High betweenness centrality (0.078) - this node is a cross-community bridge._
+  _High betweenness centrality (0.080) - this node is a cross-community bridge._
+- **Why does `Configuracao` connect `Community 30` to `Community 32`, `Community 10`, `Community 29`, `Community 31`?**
+  _High betweenness centrality (0.075) - this node is a cross-community bridge._
 - **What connects `recordToolUse.sh script`, `Override`, `Parent` to the rest of the system?**
   _85 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.07675070028011205 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07379979570990806 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.0671602326811211 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
-  _Cohesion score 0.057971014492753624 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.1476923076923077 - nodes in this community are weakly interconnected._

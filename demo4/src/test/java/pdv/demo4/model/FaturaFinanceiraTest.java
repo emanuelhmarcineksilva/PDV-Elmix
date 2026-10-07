@@ -22,10 +22,10 @@ class FaturaFinanceiraTest {
 
     @Test
     void faturaNovaComecaAbertaENaoAtrasaNoDiaDoVencimento() {
-        FaturaFinanceira fatura = novaFatura(LocalDate.of(2026, 10, 10));
+        FaturaFinanceira fatura = novaFatura(LocalDate.now().plusDays(1));
 
-        assertInstanceOf(EstadoFaturaAberta.class, fatura.getEstado(LocalDate.of(2026, 10, 5)));
-        assertInstanceOf(EstadoFaturaAberta.class, fatura.getEstado(LocalDate.of(2026, 10, 10)));
+        assertInstanceOf(EstadoFaturaAberta.class, fatura.getEstado(LocalDate.now()));
+        assertInstanceOf(EstadoFaturaAberta.class, fatura.getEstado(LocalDate.now().plusDays(1)));
     }
 
     @Test
@@ -81,6 +81,27 @@ class FaturaFinanceiraTest {
 
         assertTrue(restaurada.estaQuitada());
         assertNull(original.getQuitadaEm());
+    }
+
+    @Test
+    void faturaAntigaSemEstadoRecuperaSeuEstadoAoSerDesserializada() throws Exception {
+        FaturaFinanceira original = novaFatura(LocalDate.now().plusDays(1));
+        var campoEstado = FaturaFinanceira.class.getDeclaredField("estado");
+        campoEstado.setAccessible(true);
+        campoEstado.set(original, null);
+
+        ByteArrayOutputStream bytes = new ByteArrayOutputStream();
+        try (ObjectOutputStream saida = new ObjectOutputStream(bytes)) {
+            saida.writeObject(original);
+        }
+
+        FaturaFinanceira restaurada;
+        try (ObjectInputStream entrada = new ObjectInputStream(
+                new ByteArrayInputStream(bytes.toByteArray()))) {
+            restaurada = assertInstanceOf(FaturaFinanceira.class, entrada.readObject());
+        }
+
+        assertInstanceOf(EstadoFaturaAberta.class, restaurada.getEstado());
     }
 
     private FaturaFinanceira novaFatura(LocalDate vencimento) {

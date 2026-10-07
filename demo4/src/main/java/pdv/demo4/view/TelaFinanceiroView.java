@@ -532,6 +532,9 @@ public class TelaFinanceiroView {
 
     public void setFaturas(List<FaturaFinanceira> faturas) {
         tabelaFaturas.setItems(FXCollections.observableArrayList(faturas));
+        // O estado é mutável dentro da mesma fatura; forçamos a tabela a
+        // recalcular texto, cor e botão após uma quitação confirmada.
+        tabelaFaturas.refresh();
     }
 
     public LocalDateTime getDataHoraSaida() {

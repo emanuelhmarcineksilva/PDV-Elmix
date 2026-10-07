@@ -20,8 +20,8 @@
     "semantic_hash": ""
   },
   "demo4/src/main/java/pdv/demo4/ElmixApp.java": {
-    "mtime": 1791239655.5298774,
-    "ast_hash": "b731b47cc6ce599129aec31758042497",
+    "mtime": 1791394693.6622148,
+    "ast_hash": "1aa4129d5c394610850d8a88a8485b81",
     "semantic_hash": ""
   },
   "demo4/src/main/java/pdv/demo4/Launcher.java": {
@@ -150,13 +150,13 @@
     "semantic_hash": ""
   },
   "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java": {
-    "mtime": 1791392066.573408,
-    "ast_hash": "77b7b5692e6a2b7f79b2777a5d844b51",
+    "mtime": 1791394687.329276,
+    "ast_hash": "8e59198dfad20c07f023d91545e472b5",
     "semantic_hash": ""
   },
   "demo4/src/test/java/pdv/demo4/model/FaturaFinanceiraTest.java": {
-    "mtime": 1791392232.5063012,
-    "ast_hash": "3e15fa6576228cdb4d7bf3c053692a74",
+    "mtime": 1791394705.7129767,
+    "ast_hash": "fd8650061a14c8ee1443e5350bf49954",
     "semantic_hash": ""
   },
   "AGENTS.md": {
@@ -232,6 +232,11 @@
   "StateExemple.md": {
     "mtime": 1791391755.2367446,
     "ast_hash": "fc1ebd3202b31e4bedb2b8281504d9b1",
+    "semantic_hash": ""
+  },
+  "Observer.md": {
+    "mtime": 1791393988.6541913,
+    "ast_hash": "9973c24a4c9f56916a9ea569b7398eb5",
     "semantic_hash": ""
   }
 }

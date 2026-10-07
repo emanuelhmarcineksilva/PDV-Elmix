@@ -1,5 +1,7 @@
 package pdv.demo4.model;
 
+import java.io.IOException;
+import java.io.ObjectInputStream;
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -63,6 +65,7 @@ public class FaturaFinanceira implements Serializable {
      * determinísticos sem depender do relógio do computador.
      */
     public EstadoFatura getEstado(LocalDate hoje) {
+        inicializarEstadoSeNecessario();
         estado = estado.atualizar(Objects.requireNonNull(hoje, "A data atual é obrigatória"));
         return estado;
     }
@@ -76,6 +79,7 @@ public class FaturaFinanceira implements Serializable {
         if (dataPagamento == null) {
             throw new IllegalArgumentException("A data de pagamento é obrigatória");
         }
+        inicializarEstadoSeNecessario();
         estado = estado.atualizar(dataPagamento.toLocalDate());
         estado.marcarComoQuitada(dataPagamento);
     }
@@ -96,5 +100,29 @@ public class FaturaFinanceira implements Serializable {
     /** Atalho semântico para consumidores que só precisam habilitar ações. */
     public boolean estaQuitada() {
         return getEstado().estaQuitada();
+    }
+
+    /**
+     * Migra faturas salvas antes da introdução do padrão State.
+     * Na versão antiga, não existia o campo "estado", então o Java o restaura
+     * como null. Reconstruímos esse estado usando os dados já persistidos.
+     */
+    private void readObject(ObjectInputStream entrada) throws IOException, ClassNotFoundException {
+        entrada.defaultReadObject();
+        inicializarEstadoSeNecessario();
+    }
+
+    private void inicializarEstadoSeNecessario() {
+        if (estado != null) {
+            return;
+        }
+
+        if (quitadaEm != null) {
+            estado = new EstadoFaturaQuitada(this);
+        } else if (dataVencimento.isBefore(LocalDate.now())) {
+            estado = new EstadoFaturaAtrasada(this);
+        } else {
+            estado = new EstadoFaturaAberta(this);
+        }
     }
 }
