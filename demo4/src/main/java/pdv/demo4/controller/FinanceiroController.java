@@ -68,6 +68,7 @@ public class FinanceiroController {
         dados = novosDados;
         if (dados.getEmpresas() == null) dados.setEmpresas(new ArrayList<>());
         if (dados.getMovimentacoes() == null) dados.setMovimentacoes(new ArrayList<>());
+        if (dados.getFaturas() == null) dados.setFaturas(new ArrayList<>());
         salvarDados();
     }
 
@@ -165,6 +166,59 @@ public class FinanceiroController {
 
     public List<MovimentacaoCaixa> getMovimentacoes() {
         return new ArrayList<>(dados.getMovimentacoes());
+    }
+
+    public List<FaturaFinanceira> getFaturas() {
+        return dados.getFaturas().stream()
+                .sorted(Comparator.comparing(FaturaFinanceira::getDataVencimento))
+                .collect(Collectors.toList());
+    }
+
+    public synchronized FaturaFinanceira registrarFatura(BigDecimal valor, Empresa empresa,
+                                                          LocalDate dataVencimento, String descricao) {
+        if (valor == null || valor.compareTo(BigDecimal.ZERO) <= 0) {
+            throw new IllegalArgumentException("Valor deve ser positivo");
+        }
+        if (empresa == null) {
+            throw new IllegalArgumentException("Fornecedor/Empresa é obrigatório");
+        }
+        if (dataVencimento == null) {
+            throw new IllegalArgumentException("A data de vencimento é obrigatória");
+        }
+        FaturaFinanceira fatura = new FaturaFinanceira(
+                valor.setScale(2, RoundingMode.HALF_UP),
+                dataVencimento,
+                descricao,
+                empresa
+        );
+        dados.getFaturas().add(fatura);
+        salvarDados();
+        return fatura;
+    }
+
+    public synchronized MovimentacaoCaixa quitarFatura(String id) {
+        FaturaFinanceira fatura = dados.getFaturas().stream()
+                .filter(item -> item.getId().equals(id))
+                .findFirst()
+                .orElseThrow(() -> new IllegalArgumentException("Fatura não encontrada"));
+
+        LocalDateTime dataPagamento = LocalDateTime.now();
+        // A fatura delega a validação da operação ao seu estado atual.
+        fatura.marcarComoQuitada(dataPagamento);
+        String descricao = fatura.getDescricao().isBlank()
+                ? "Fatura"
+                : "Fatura: " + fatura.getDescricao();
+        MovimentacaoCaixa movimentacao = new MovimentacaoCaixa(
+                TipoMovimentacao.SAIDA,
+                fatura.getValor(),
+                dataPagamento,
+                descricao,
+                fatura.getEmpresa(),
+                OrigemMovimentacao.MANUAL
+        );
+        dados.getMovimentacoes().add(movimentacao);
+        salvarDados();
+        return movimentacao;
     }
 
     /**
