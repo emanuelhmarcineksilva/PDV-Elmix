@@ -305,6 +305,7 @@ public class ElmixApp extends Application {
             BigDecimal[] totais = financeiroController.calcularTotais(movs);
             Map<Empresa, BigDecimal> porFornecedor = financeiroController.agruparGastosPorFornecedor(movs);
             tela.popularDashboard(totais[0], totais[1], totais[2], porFornecedor, movs, labelPeriodo);
+            tela.setFaturas(financeiroController.getFaturas());
         };
 
         aplicarFiltro.run();
@@ -336,6 +337,26 @@ public class ElmixApp extends Application {
                         && financeiroController.removerMovimentacao(movimentacao.getId())) {
                     aplicarFiltro.run();
                     tela.setStatus("Despesa excluída com sucesso.", false);
+                }
+            });
+        });
+        tela.setOnFaturaQuitarHandler(fatura -> {
+            Alert confirmacao = new Alert(Alert.AlertType.CONFIRMATION,
+                    "Deseja quitar a fatura de R$ "
+                            + String.format("%.2f", fatura.getValor())
+                            + " para " + fatura.getEmpresa().getNomeRazao() + "?",
+                    ButtonType.YES, ButtonType.NO);
+            confirmacao.setTitle("Quitar fatura");
+            confirmacao.setHeaderText(null);
+            confirmacao.showAndWait().ifPresent(resposta -> {
+                if (resposta == ButtonType.YES) {
+                    try {
+                        financeiroController.quitarFatura(fatura.getId());
+                        aplicarFiltro.run();
+                        tela.setStatus("Fatura quitada e saída registrada no fluxo de caixa.", false);
+                    } catch (Exception ex) {
+                        tela.setStatus("Erro ao quitar fatura: " + ex.getMessage(), true);
+                    }
                 }
             });
         });
@@ -388,7 +409,17 @@ public class ElmixApp extends Application {
                 BigDecimal valor = new BigDecimal(valorTxt);
                 if (valor.compareTo(BigDecimal.ZERO) <= 0) throw new NumberFormatException();
                 LocalDateTime dataHora = tela.getDataHoraSaida();
-                financeiroController.registrarSaida(valor, emp, dataHora, desc.isEmpty() ? "Despesa" : desc);
+                String descricao = desc.isEmpty() ? "Despesa" : desc;
+                if (dataHora.toLocalDate().isAfter(LocalDate.now())) {
+                    financeiroController.registrarFatura(valor, emp, dataHora.toLocalDate(), descricao);
+                    tela.limparFormSaida();
+                    tela.setEmpresas(financeiroController.getEmpresasAtivas());
+                    aplicarFiltro.run();
+                    tela.setStatus("Fatura de R$ " + String.format("%.2f", valor)
+                            + " cadastrada para " + dataHora.toLocalDate().format(DateTimeFormatter.ofPattern("dd/MM/yyyy")), false);
+                    return;
+                }
+                financeiroController.registrarSaida(valor, emp, dataHora, descricao);
                 tela.limparFormSaida();
                 tela.setEmpresas(financeiroController.getEmpresasAtivas());
                 aplicarFiltro.run();

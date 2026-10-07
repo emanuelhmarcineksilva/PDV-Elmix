@@ -1,23 +1,13 @@
 {
   ".github/modernize/java-upgrade/hooks/scripts/recordToolUse.ps1": {
-    "mtime": 1791210059.6813283,
+    "mtime": 1791384709.7105126,
     "ast_hash": "9ecf230451dfd20ff4e0a2a01e80a4e6",
     "semantic_hash": "9ecf230451dfd20ff4e0a2a01e80a4e6"
   },
   ".github/modernize/java-upgrade/hooks/scripts/recordToolUse.sh": {
-    "mtime": 1791210059.6823282,
+    "mtime": 1791384709.711534,
     "ast_hash": "e25ae501603ce6bf738198f5ce32ba83",
     "semantic_hash": "e25ae501603ce6bf738198f5ce32ba83"
-  },
-  ".opencode/opencode.json": {
-    "mtime": 1789825285.567469,
-    "ast_hash": "e5f74d14a81702b55bdf53b33ec991d7",
-    "semantic_hash": ""
-  },
-  ".opencode/plugins/graphify.js": {
-    "mtime": 1789785427.4149728,
-    "ast_hash": "64ccd3c03dbfe0980b6095766f5c4e52",
-    "semantic_hash": "64ccd3c03dbfe0980b6095766f5c4e52"
   },
   "demo4/mvnw": {
     "mtime": 1782486612.5394523,
@@ -30,8 +20,8 @@
     "semantic_hash": ""
   },
   "demo4/src/main/java/pdv/demo4/ElmixApp.java": {
-    "mtime": 1791212692.0408564,
-    "ast_hash": "280001e997576fd113a6a7fd089c94d9",
+    "mtime": 1791239655.5298774,
+    "ast_hash": "b731b47cc6ce599129aec31758042497",
     "semantic_hash": ""
   },
   "demo4/src/main/java/pdv/demo4/Launcher.java": {
@@ -45,8 +35,8 @@
     "semantic_hash": ""
   },
   "demo4/src/main/java/pdv/demo4/controller/FinanceiroController.java": {
-    "mtime": 1789830986.4233873,
-    "ast_hash": "ee74530034662545a77bb8aa65b9ffc7",
+    "mtime": 1791392030.5829237,
+    "ast_hash": "6da7d2569d451fe47aad549ddedf22af",
     "semantic_hash": ""
   },
   "demo4/src/main/java/pdv/demo4/controller/VendaController.java": {
@@ -60,9 +50,9 @@
     "semantic_hash": "9fdbb58d76f6aede8a34fa0d9c7e1c97"
   },
   "demo4/src/main/java/pdv/demo4/model/DadosFinanceiros.java": {
-    "mtime": 1788983947.6154451,
-    "ast_hash": "406a5cceba4f7f17817d3c433050ffba",
-    "semantic_hash": "406a5cceba4f7f17817d3c433050ffba"
+    "mtime": 1791239655.3668628,
+    "ast_hash": "b789ba89643cdf70b28a48d39418d34f",
+    "semantic_hash": ""
   },
   "demo4/src/main/java/pdv/demo4/model/Empresa.java": {
     "mtime": 1789784810.617057,
@@ -115,8 +105,8 @@
     "semantic_hash": "7c6d0e84bc72e83e42c7a9ea72ab2d10"
   },
   "demo4/src/main/java/pdv/demo4/view/TelaFinanceiroView.java": {
-    "mtime": 1789848441.198147,
-    "ast_hash": "1fa87915015767358b4cd1c279754862",
+    "mtime": 1791392041.6069822,
+    "ast_hash": "55b908034460cf0fc5dac94164f3fc8e",
     "semantic_hash": ""
   },
   "demo4/src/main/java/pdv/demo4/view/TelaHistoricoView.java": {
@@ -139,16 +129,6 @@
     "ast_hash": "aa7068e75975377eb94ee3160ca2fc21",
     "semantic_hash": ""
   },
-  ".opencode/package.json": {
-    "mtime": 1789825416.5253239,
-    "ast_hash": "f94937b0f3b84759b51b101818e57384",
-    "semantic_hash": ""
-  },
-  ".vscode/settings.json": {
-    "mtime": 1791212850.5210834,
-    "ast_hash": "b9cbf622fba77d04207cc1a07d4f0dbe",
-    "semantic_hash": ""
-  },
   "demo4/src/main/java/pdv/demo4/model/BackupCompleto.java": {
     "mtime": 1789786077.7759268,
     "ast_hash": "adb84d22d31e7bdca539182b8ccdfafe",
@@ -159,14 +139,99 @@
     "ast_hash": "ebc6cd5a1f402b8b08b6ecdb8bc9e7dd",
     "semantic_hash": ""
   },
-  ".vscode/launch.json": {
-    "mtime": 1789846197.0643997,
-    "ast_hash": "c824da88da6d05d9100e79acb2fe8413",
-    "semantic_hash": ""
-  },
   "demo4/src/test/java/pdv/demo4/model/VendaTest.java": {
     "mtime": 1791212738.824865,
     "ast_hash": "bd742e9de6dbf781bb6a777874d30dd2",
+    "semantic_hash": ""
+  },
+  "demo4/src/main/java/pdv/demo4/model/EstadoFatura.java": {
+    "mtime": 1791391989.1380203,
+    "ast_hash": "f6da464a7cc54258c162815cdd3146c4",
+    "semantic_hash": ""
+  },
+  "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java": {
+    "mtime": 1791392066.573408,
+    "ast_hash": "77b7b5692e6a2b7f79b2777a5d844b51",
+    "semantic_hash": ""
+  },
+  "demo4/src/test/java/pdv/demo4/model/FaturaFinanceiraTest.java": {
+    "mtime": 1791392232.5063012,
+    "ast_hash": "3e15fa6576228cdb4d7bf3c053692a74",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1789785427.4137604,
+    "ast_hash": "62c05a2bf20bf036a0b2633478663e64",
+    "semantic_hash": ""
+  },
+  "Atividade.md": {
+    "mtime": 1791226328.8815832,
+    "ast_hash": "ef66e38020c0b446271d5b1ea8d24bb9",
+    "semantic_hash": ""
+  },
+  "demo4/ComoFunciona.md": {
+    "mtime": 1782487595.0975082,
+    "ast_hash": "f001232039aa7f7d58da70b89ab3264f",
+    "semantic_hash": ""
+  },
+  "demo4/DescricaoSistema.md": {
+    "mtime": 1788983613.7174957,
+    "ast_hash": "ebe52727d5f8318ea450fb079c31e3cf",
+    "semantic_hash": ""
+  },
+  "demo4/PDV3.0.md": {
+    "mtime": 1789831794.5258842,
+    "ast_hash": "1be03f34c07aa34548461e3e82884c94",
+    "semantic_hash": ""
+  },
+  "demo4/README.md": {
+    "mtime": 1791059355.817102,
+    "ast_hash": "826e3d799bd20118254c43b5ef4941ec",
+    "semantic_hash": ""
+  },
+  "demo4/RESUMO_PLATAFORMA.txt": {
+    "mtime": 1790608664.5425968,
+    "ast_hash": "7abf17b3c7cc4843a15a2a665fb185d9",
+    "semantic_hash": ""
+  },
+  "demo4/erros.md": {
+    "mtime": 1791059517.044519,
+    "ast_hash": "009e141a5a1a15c17a5bf7a277b9645c",
+    "semantic_hash": ""
+  },
+  "demo4/green-ivy-vine-isolated-on-a-transparent-background-showcasing-lush-leaves-and-natural-beauty-perfect-for-botanical-and-nature-themed-projects-png.png": {
+    "mtime": 1782495112.1838932,
+    "ast_hash": "d8d955c555aa2ff2e02a254912b57757",
+    "semantic_hash": ""
+  },
+  "demo4/hanging-vines-creepers-leaves-forest-shrubs-ai-generated.png": {
+    "mtime": 1782495054.9243526,
+    "ast_hash": "b36fc467cce46ff23367c2380ddb0713",
+    "semantic_hash": ""
+  },
+  "demo4/pdv-orc.webp": {
+    "mtime": 1782488624.6682422,
+    "ast_hash": "7032341c010a3e62f1778efd979943ad",
+    "semantic_hash": ""
+  },
+  "demo4/src/main/java/pdv/demo4/model/EstadoFaturaAberta.java": {
+    "mtime": 1791391995.8743975,
+    "ast_hash": "b19ddbddae7dbdc777c703b34c954c3d",
+    "semantic_hash": ""
+  },
+  "demo4/src/main/java/pdv/demo4/model/EstadoFaturaAtrasada.java": {
+    "mtime": 1791392002.2574832,
+    "ast_hash": "47cb34c5770527fe0f023a1c80d2ed0e",
+    "semantic_hash": ""
+  },
+  "demo4/src/main/java/pdv/demo4/model/EstadoFaturaQuitada.java": {
+    "mtime": 1791392011.5532794,
+    "ast_hash": "f0a084e52d092b5958dc2e64e0cef95a",
+    "semantic_hash": ""
+  },
+  "StateExemple.md": {
+    "mtime": 1791391755.2367446,
+    "ast_hash": "fc1ebd3202b31e4bedb2b8281504d9b1",
     "semantic_hash": ""
   }
 }

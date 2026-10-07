@@ -1,6 +1,7 @@
 package pdv.demo4.view;
 
 import javafx.collections.FXCollections;
+import javafx.beans.property.ReadOnlyStringWrapper;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.chart.BarChart;
@@ -15,6 +16,7 @@ import javafx.scene.text.FontWeight;
 import javafx.util.StringConverter;
 import pdv.demo4.model.Configuracao;
 import pdv.demo4.model.Empresa;
+import pdv.demo4.model.FaturaFinanceira;
 import pdv.demo4.model.MovimentacaoCaixa;
 import pdv.demo4.model.TipoMovimentacao;
 
@@ -64,8 +66,10 @@ public class TelaFinanceiroView {
 
     // lista recentes
     private ListView<MovimentacaoCaixa> listaMovs;
+    private TableView<FaturaFinanceira> tabelaFaturas;
     private Label lblStatus;
     private Consumer<MovimentacaoCaixa> onMovimentacaoRemoveHandler;
+    private Consumer<FaturaFinanceira> onFaturaQuitarHandler;
 
     public TelaFinanceiroView(Configuracao config) {
         this.config = config;
@@ -255,7 +259,9 @@ public class TelaFinanceiroView {
         hEmpresa.setAlignment(Pos.CENTER_LEFT);
         HBox.setHgrow(comboEmpresa, Priority.ALWAYS);
 
-        Label lData = smallLabel("Data / Hora *");
+        Label lData = smallLabel("Data / Vencimento *");
+        Label dicaData = new Label("Uma data futura cadastra uma fatura pendente.");
+        dicaData.setStyle("-fx-text-fill: #666; -fx-font-size: 11px;");
         dpDataSaida = new DatePicker(LocalDate.now());
         dpDataSaida.setPrefWidth(170);
         estilizarDatePicker(dpDataSaida);
@@ -277,15 +283,19 @@ public class TelaFinanceiroView {
         btnSalvarSaida.setPrefWidth(Double.MAX_VALUE);
         btnSalvarSaida.setPrefHeight(46);
         btnSalvarSaida.setFont(Font.font("Arial", FontWeight.BOLD, 16));
+        dpDataSaida.valueProperty().addListener((obs, antiga, novaData) ->
+                btnSalvarSaida.setText(novaData != null && novaData.isAfter(LocalDate.now())
+                        ? "Salvar Fatura"
+                        : "Salvar Saída"));
 
-        VBox form = new VBox(8, titForm, lValor, txtValorSaida, lEmp, hEmpresa, lData, hData, lDesc, txtDescricaoSaida, btnSalvarSaida);
+        VBox form = new VBox(8, titForm, lValor, txtValorSaida, lEmp, hEmpresa, lData, dicaData, hData, lDesc, txtDescricaoSaida, btnSalvarSaida);
         form.setPadding(new Insets(16));
         form.setPrefWidth(420);
         form.setMinWidth(360);
         form.setStyle(cardStyle());
 
         // --- LISTA MOVIMENTAÇÕES ---
-        Label titLista = new Label("Movimentações do período");
+        Label titLista = new Label("Movimentações e faturas");
         titLista.setFont(Font.font("Arial", FontWeight.BOLD, 16));
         titLista.setStyle("-fx-text-fill: #1B5E20;");
 
@@ -348,7 +358,15 @@ public class TelaFinanceiroView {
         });
         VBox.setVgrow(listaMovs, Priority.ALWAYS);
 
-        VBox listaBox = new VBox(10, titLista, listaMovs);
+        tabelaFaturas = criarTabelaFaturas();
+        Tab abaMovimentacoes = new Tab("Movimentações", listaMovs);
+        Tab abaFaturas = new Tab("Faturas", tabelaFaturas);
+        abaMovimentacoes.setClosable(false);
+        abaFaturas.setClosable(false);
+        TabPane abas = new TabPane(abaMovimentacoes, abaFaturas);
+        VBox.setVgrow(abas, Priority.ALWAYS);
+
+        VBox listaBox = new VBox(10, titLista, abas);
         listaBox.setPadding(new Insets(16));
         listaBox.setStyle(cardStyle());
         HBox.setHgrow(listaBox, Priority.ALWAYS);
@@ -357,6 +375,69 @@ public class TelaFinanceiroView {
         HBox h = new HBox(15, form, listaBox);
         HBox.setHgrow(listaBox, Priority.ALWAYS);
         return h;
+    }
+
+    private TableView<FaturaFinanceira> criarTabelaFaturas() {
+        TableView<FaturaFinanceira> tabela = new TableView<>();
+        tabela.setPlaceholder(new Label("Nenhuma fatura cadastrada"));
+        tabela.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY_ALL_COLUMNS);
+
+        TableColumn<FaturaFinanceira, String> descricao = new TableColumn<>("Descrição");
+        descricao.setCellValueFactory(dado -> new ReadOnlyStringWrapper(
+                dado.getValue().getDescricao().isBlank() ? "Fatura" : dado.getValue().getDescricao()));
+
+        TableColumn<FaturaFinanceira, String> empresa = new TableColumn<>("Fornecedor");
+        empresa.setCellValueFactory(dado -> new ReadOnlyStringWrapper(
+                dado.getValue().getEmpresa().getNomeRazao()));
+
+        TableColumn<FaturaFinanceira, String> vencimento = new TableColumn<>("Vencimento");
+        vencimento.setCellValueFactory(dado -> new ReadOnlyStringWrapper(
+                dado.getValue().getDataVencimento().format(DateTimeFormatter.ofPattern("dd/MM/yyyy"))));
+
+        TableColumn<FaturaFinanceira, String> valor = new TableColumn<>("Valor");
+        valor.setCellValueFactory(dado -> new ReadOnlyStringWrapper(
+                "R$ " + String.format("%.2f", dado.getValue().getValor())));
+
+        TableColumn<FaturaFinanceira, String> estado = new TableColumn<>("Estado");
+        estado.setCellValueFactory(dado -> new ReadOnlyStringWrapper(
+                dado.getValue().getEstado().getNome()));
+        estado.setCellFactory(coluna -> new TableCell<>() {
+            @Override
+            protected void updateItem(String item, boolean empty) {
+                super.updateItem(item, empty);
+                setText(empty ? null : item);
+                setStyle(empty ? "" : switch (item) {
+                    case "QUITADA" -> "-fx-text-fill: #2E7D32; -fx-font-weight: bold;";
+                    case "ATRASADA" -> "-fx-text-fill: #C62828; -fx-font-weight: bold;";
+                    default -> "-fx-text-fill: #EF6C00; -fx-font-weight: bold;";
+                });
+            }
+        });
+
+        TableColumn<FaturaFinanceira, Void> acoes = new TableColumn<>("Ação");
+        acoes.setCellFactory(coluna -> new TableCell<>() {
+            private final Button btnQuitar = new Button("Quitar");
+
+            {
+                btnQuitar.setOnAction(event -> {
+                    FaturaFinanceira fatura = getTableRow().getItem();
+                    if (onFaturaQuitarHandler != null) {
+                        onFaturaQuitarHandler.accept(fatura);
+                    }
+                });
+            }
+
+            @Override
+            protected void updateItem(Void item, boolean empty) {
+                super.updateItem(item, empty);
+                FaturaFinanceira fatura = empty ? null : getTableRow().getItem();
+                btnQuitar.setDisable(fatura == null || fatura.estaQuitada());
+                setGraphic(empty ? null : btnQuitar);
+            }
+        });
+
+        tabela.getColumns().addAll(descricao, empresa, vencimento, valor, estado, acoes);
+        return tabela;
     }
 
     // ---- helpers estilo ----
@@ -449,6 +530,10 @@ public class TelaFinanceiroView {
         listaMovs.setItems(FXCollections.observableArrayList(movsPeriodo));
     }
 
+    public void setFaturas(List<FaturaFinanceira> faturas) {
+        tabelaFaturas.setItems(FXCollections.observableArrayList(faturas));
+    }
+
     public LocalDateTime getDataHoraSaida() {
         LocalDate d = dpDataSaida.getValue();
         if (d == null) return LocalDateTime.now();
@@ -496,5 +581,8 @@ public class TelaFinanceiroView {
     public ListView<MovimentacaoCaixa> getListaMovs() { return listaMovs; }
     public void setOnMovimentacaoRemoveHandler(Consumer<MovimentacaoCaixa> handler) {
         this.onMovimentacaoRemoveHandler = handler;
+    }
+    public void setOnFaturaQuitarHandler(Consumer<FaturaFinanceira> handler) {
+        this.onFaturaQuitarHandler = handler;
     }
 }
