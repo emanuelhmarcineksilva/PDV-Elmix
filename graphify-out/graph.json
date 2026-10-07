@@ -118,7 +118,7 @@
       "source_location": "L105",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_trocartela",
-      "community": 7,
+      "community": 9,
       "norm_label": ".trocartela()"
     },
     {
@@ -128,7 +128,7 @@
       "source_location": "L105",
       "_origin": "ast",
       "id": "parent",
-      "community": 7,
+      "community": 9,
       "norm_label": "parent"
     },
     {
@@ -138,7 +138,7 @@
       "source_location": "L105",
       "_origin": "ast",
       "id": "eventhandler",
-      "community": 7,
+      "community": 9,
       "norm_label": "eventhandler"
     },
     {
@@ -235,7 +235,7 @@
       "label": ".mostrarTelaPDV()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L442",
+      "source_location": "L445",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_mostrartelapdv",
       "community": 0,
@@ -245,7 +245,7 @@
       "label": ".confirmarNovaVenda()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L524",
+      "source_location": "L527",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_confirmarnovavenda",
       "community": 0,
@@ -255,7 +255,7 @@
       "label": ".iniciarNovaVenda()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L538",
+      "source_location": "L541",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_iniciarnovavenda",
       "community": 0,
@@ -265,7 +265,7 @@
       "label": ".focarCampoValor()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L546",
+      "source_location": "L549",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_focarcampovalor",
       "community": 0,
@@ -275,7 +275,7 @@
       "label": ".configurarAtalhoVendaParalela()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L553",
+      "source_location": "L556",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_configuraratalhovendaparalela",
       "community": 0,
@@ -285,7 +285,7 @@
       "label": "TextInputControl",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L553",
+      "source_location": "L556",
       "_origin": "ast",
       "id": "textinputcontrol",
       "community": 0,
@@ -295,7 +295,7 @@
       "label": ".abrirVendaParalela()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L562",
+      "source_location": "L565",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_abrirvendaparalela",
       "community": 0,
@@ -305,7 +305,7 @@
       "label": ".criarControllerModal()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L594",
+      "source_location": "L597",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_criarcontrollermodal",
       "community": 0,
@@ -315,7 +315,7 @@
       "label": "VendaController",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L594",
+      "source_location": "L597",
       "_origin": "ast",
       "id": "vendacontroller",
       "community": 0,
@@ -325,7 +325,7 @@
       "label": "Venda",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L598",
+      "source_location": "L601",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_elmixapp_java_venda",
       "community": 0,
@@ -335,7 +335,7 @@
       "label": ".criarTelaModal()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L604",
+      "source_location": "L607",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_criartelamodal",
       "community": 0,
@@ -345,7 +345,7 @@
       "label": "String",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L604",
+      "source_location": "L607",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_elmixapp_java_string",
       "community": 0,
@@ -355,7 +355,7 @@
       "label": "TelaPDVView",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L604",
+      "source_location": "L607",
       "_origin": "ast",
       "id": "telapdvview",
       "community": 0,
@@ -365,7 +365,7 @@
       "label": ".criarModal()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L635",
+      "source_location": "L638",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_criarmodal",
       "community": 0,
@@ -375,7 +375,7 @@
       "label": ".posicionarModaisLadoALado()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L666",
+      "source_location": "L669",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_posicionarmodaisladoalado",
       "community": 0,
@@ -385,7 +385,7 @@
       "label": ".configurarAtalhoModal()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L688",
+      "source_location": "L691",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_configuraratalhomodal",
       "community": 0,
@@ -395,7 +395,7 @@
       "label": ".alternarVendaParalela()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L697",
+      "source_location": "L700",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_alternarvendaparalela",
       "community": 0,
@@ -405,7 +405,7 @@
       "label": ".adicionarItemVenda()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L714",
+      "source_location": "L717",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_adicionaritemvenda",
       "community": 0,
@@ -415,7 +415,7 @@
       "label": ".atualizarTrocoVenda()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L739",
+      "source_location": "L742",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_atualizartrocovenda",
       "community": 0,
@@ -425,7 +425,7 @@
       "label": ".removerItemVendaParalela()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L751",
+      "source_location": "L754",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_removeritemvendaparalela",
       "community": 0,
@@ -435,7 +435,7 @@
       "label": ".finalizarVendaParalela()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L765",
+      "source_location": "L768",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_finalizarvendaparalela",
       "community": 0,
@@ -445,7 +445,7 @@
       "label": ".fecharModalVenda()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L796",
+      "source_location": "L799",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_fecharmodalvenda",
       "community": 0,
@@ -455,7 +455,7 @@
       "label": ".limparReferenciaModal()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L804",
+      "source_location": "L807",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_limparreferenciamodal",
       "community": 0,
@@ -465,7 +465,7 @@
       "label": ".abrirVendaParalelaModalLegado()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L818",
+      "source_location": "L821",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_abrirvendaparalelamodallegado",
       "community": 0,
@@ -475,7 +475,7 @@
       "label": ".adicionarItem()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L1074",
+      "source_location": "L1077",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_adicionaritem",
       "community": 0,
@@ -485,7 +485,7 @@
       "label": ".confirmarRemoverItem()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L1109",
+      "source_location": "L1112",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_confirmarremoveritem",
       "community": 0,
@@ -495,7 +495,7 @@
       "label": ".calcularTrocoAtual()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L1134",
+      "source_location": "L1137",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_calculartrocoatual",
       "community": 0,
@@ -505,7 +505,7 @@
       "label": ".finalizarVenda()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L1158",
+      "source_location": "L1161",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_finalizarvenda",
       "community": 0,
@@ -515,17 +515,17 @@
       "label": ".mostrarTelaHistorico()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L1200",
+      "source_location": "L1203",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_mostrartelahistorico",
-      "community": 7,
+      "community": 0,
       "norm_label": ".mostrartelahistorico()"
     },
     {
       "label": ".editarVenda()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L1249",
+      "source_location": "L1252",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_editarvenda",
       "community": 0,
@@ -535,7 +535,7 @@
       "label": ".finalizarEdicaoVenda()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L1347",
+      "source_location": "L1350",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_finalizaredicaovenda",
       "community": 0,
@@ -545,17 +545,17 @@
       "label": ".mostrarTelaConta()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L1400",
+      "source_location": "L1403",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_mostrartelaconta",
-      "community": 7,
+      "community": 9,
       "norm_label": ".mostrartelaconta()"
     },
     {
       "label": ".mostrarTelaConfig()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L1410",
+      "source_location": "L1413",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_mostrartelaconfig",
       "community": 2,
@@ -565,17 +565,17 @@
       "label": ".mostrarTelaBackup()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L1444",
+      "source_location": "L1447",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_mostrartelabackup",
-      "community": 7,
+      "community": 9,
       "norm_label": ".mostrartelabackup()"
     },
     {
       "label": ".gerarRelatorioBackupCompleto()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L1524",
+      "source_location": "L1527",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_gerarrelatoriobackupcompleto",
       "community": 12,
@@ -585,7 +585,7 @@
       "label": "LocalDate",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L1524",
+      "source_location": "L1527",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_elmixapp_java_localdate",
       "community": 12,
@@ -595,7 +595,7 @@
       "label": ".salvarRelatorioBackupCompleto()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L1543",
+      "source_location": "L1546",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_salvarrelatoriobackupcompleto",
       "community": 0,
@@ -605,7 +605,7 @@
       "label": "File",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L1543",
+      "source_location": "L1546",
       "_origin": "ast",
       "id": "file",
       "community": 0,
@@ -615,27 +615,27 @@
       "label": ".fecharCaixa()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L1557",
+      "source_location": "L1560",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_fecharcaixa",
-      "community": 7,
+      "community": 0,
       "norm_label": ".fecharcaixa()"
     },
     {
       "label": ".mostrarAlerta()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L1587",
+      "source_location": "L1590",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_mostraralerta",
-      "community": 7,
+      "community": 0,
       "norm_label": ".mostraralerta()"
     },
     {
       "label": ".mostrarAlertaGrande()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
-      "source_location": "L1595",
+      "source_location": "L1598",
       "_origin": "ast",
       "id": "demo4_elmixapp_elmixapp_mostraralertagrande",
       "community": 0,
@@ -688,7 +688,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "home_emanuel_henrique_trabalho_pdv_elmix_demo4_src_main_java_pdv_demo4_controller_configuracaocontroller_java",
-      "community": 7,
+      "community": 9,
       "norm_label": "configuracaocontroller.java"
     },
     {
@@ -698,7 +698,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "controller_configuracaocontroller_configuracaocontroller",
-      "community": 7,
+      "community": 9,
       "norm_label": "configuracaocontroller"
     },
     {
@@ -708,7 +708,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "controller_configuracaocontroller_configuracaocontroller_configuracaocontroller",
-      "community": 7,
+      "community": 9,
       "norm_label": ".configuracaocontroller()"
     },
     {
@@ -718,7 +718,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "controller_configuracaocontroller_configuracaocontroller_getconfiguracao",
-      "community": 7,
+      "community": 9,
       "norm_label": ".getconfiguracao()"
     },
     {
@@ -728,7 +728,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_controller_configuracaocontroller_java_configuracao",
-      "community": 7,
+      "community": 9,
       "norm_label": "configuracao"
     },
     {
@@ -738,7 +738,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "controller_configuracaocontroller_configuracaocontroller_salvar",
-      "community": 7,
+      "community": 9,
       "norm_label": ".salvar()"
     },
     {
@@ -748,7 +748,7 @@
       "source_location": "L43",
       "_origin": "ast",
       "id": "controller_configuracaocontroller_configuracaocontroller_restaurarpadrao",
-      "community": 7,
+      "community": 9,
       "norm_label": ".restaurarpadrao()"
     },
     {
@@ -758,7 +758,7 @@
       "source_location": "L48",
       "_origin": "ast",
       "id": "controller_configuracaocontroller_configuracaocontroller_restaurar",
-      "community": 7,
+      "community": 9,
       "norm_label": ".restaurar()"
     },
     {
@@ -1348,7 +1348,7 @@
       "source_location": "L128",
       "_origin": "ast",
       "id": "controller_vendacontroller_vendacontroller_atualizarvenda",
-      "community": 7,
+      "community": 0,
       "norm_label": ".atualizarvenda()"
     },
     {
@@ -1478,7 +1478,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "home_emanuel_henrique_trabalho_pdv_elmix_demo4_src_main_java_pdv_demo4_model_backupcompleto_java",
-      "community": 7,
+      "community": 9,
       "norm_label": "backupcompleto.java"
     },
     {
@@ -1488,7 +1488,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "model_backupcompleto_backupcompleto",
-      "community": 7,
+      "community": 9,
       "norm_label": "backupcompleto"
     },
     {
@@ -1508,7 +1508,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "model_backupcompleto_backupcompleto_getvendas",
-      "community": 7,
+      "community": 9,
       "norm_label": ".getvendas()"
     },
     {
@@ -1518,7 +1518,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_model_backupcompleto_java_list",
-      "community": 7,
+      "community": 9,
       "norm_label": "list"
     },
     {
@@ -1528,7 +1528,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_model_backupcompleto_java_venda",
-      "community": 7,
+      "community": 9,
       "norm_label": "venda"
     },
     {
@@ -1538,7 +1538,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "model_backupcompleto_backupcompleto_setvendas",
-      "community": 7,
+      "community": 9,
       "norm_label": ".setvendas()"
     },
     {
@@ -1548,7 +1548,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "model_backupcompleto_backupcompleto_getdadosfinanceiros",
-      "community": 7,
+      "community": 9,
       "norm_label": ".getdadosfinanceiros()"
     },
     {
@@ -1558,7 +1558,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_model_backupcompleto_java_dadosfinanceiros",
-      "community": 7,
+      "community": 9,
       "norm_label": "dadosfinanceiros"
     },
     {
@@ -1568,7 +1568,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "model_backupcompleto_backupcompleto_setdadosfinanceiros",
-      "community": 7,
+      "community": 9,
       "norm_label": ".setdadosfinanceiros()"
     },
     {
@@ -1578,7 +1578,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "model_backupcompleto_backupcompleto_getconfiguracao",
-      "community": 7,
+      "community": 9,
       "norm_label": ".getconfiguracao()"
     },
     {
@@ -1588,7 +1588,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_model_backupcompleto_java_configuracao",
-      "community": 7,
+      "community": 9,
       "norm_label": "configuracao"
     },
     {
@@ -1598,7 +1598,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "model_backupcompleto_backupcompleto_setconfiguracao",
-      "community": 7,
+      "community": 9,
       "norm_label": ".setconfiguracao()"
     },
     {
@@ -1608,7 +1608,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "home_emanuel_henrique_trabalho_pdv_elmix_demo4_src_main_java_pdv_demo4_model_configuracao_java",
-      "community": 2,
+      "community": 30,
       "norm_label": "configuracao.java"
     },
     {
@@ -1618,7 +1618,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "model_configuracao_configuracao",
-      "community": 2,
+      "community": 30,
       "norm_label": "configuracao"
     },
     {
@@ -1628,7 +1628,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "model_configuracao_configuracao_configuracao",
-      "community": 2,
+      "community": 30,
       "norm_label": ".configuracao()"
     },
     {
@@ -1638,7 +1638,7 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "model_configuracao_configuracao_getnomeloja",
-      "community": 6,
+      "community": 30,
       "norm_label": ".getnomeloja()"
     },
     {
@@ -1648,7 +1648,7 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_model_configuracao_java_string",
-      "community": 2,
+      "community": 30,
       "norm_label": "string"
     },
     {
@@ -1658,7 +1658,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "model_configuracao_configuracao_setnomeloja",
-      "community": 2,
+      "community": 30,
       "norm_label": ".setnomeloja()"
     },
     {
@@ -1668,7 +1668,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "model_configuracao_configuracao_getcorprincipal",
-      "community": 6,
+      "community": 31,
       "norm_label": ".getcorprincipal()"
     },
     {
@@ -1678,7 +1678,7 @@
       "source_location": "L41",
       "_origin": "ast",
       "id": "model_configuracao_configuracao_setcorprincipal",
-      "community": 2,
+      "community": 30,
       "norm_label": ".setcorprincipal()"
     },
     {
@@ -1688,7 +1688,7 @@
       "source_location": "L43",
       "_origin": "ast",
       "id": "model_configuracao_configuracao_getcorbotoes",
-      "community": 2,
+      "community": 30,
       "norm_label": ".getcorbotoes()"
     },
     {
@@ -1698,7 +1698,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "model_configuracao_configuracao_setcorbotoes",
-      "community": 2,
+      "community": 30,
       "norm_label": ".setcorbotoes()"
     },
     {
@@ -1708,7 +1708,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "model_configuracao_configuracao_getcortextobotoes",
-      "community": 2,
+      "community": 30,
       "norm_label": ".getcortextobotoes()"
     },
     {
@@ -1718,7 +1718,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "model_configuracao_configuracao_setcortextobotoes",
-      "community": 2,
+      "community": 30,
       "norm_label": ".setcortextobotoes()"
     },
     {
@@ -1728,7 +1728,7 @@
       "source_location": "L49",
       "_origin": "ast",
       "id": "model_configuracao_configuracao_istemaescuro",
-      "community": 2,
+      "community": 30,
       "norm_label": ".istemaescuro()"
     },
     {
@@ -1738,7 +1738,7 @@
       "source_location": "L50",
       "_origin": "ast",
       "id": "model_configuracao_configuracao_settemaescuro",
-      "community": 2,
+      "community": 30,
       "norm_label": ".settemaescuro()"
     },
     {
@@ -1748,7 +1748,7 @@
       "source_location": "L52",
       "_origin": "ast",
       "id": "model_configuracao_configuracao_isbordaarredondada",
-      "community": 2,
+      "community": 29,
       "norm_label": ".isbordaarredondada()"
     },
     {
@@ -1758,7 +1758,7 @@
       "source_location": "L53",
       "_origin": "ast",
       "id": "model_configuracao_configuracao_setbordaarredondada",
-      "community": 2,
+      "community": 30,
       "norm_label": ".setbordaarredondada()"
     },
     {
@@ -1768,7 +1768,7 @@
       "source_location": "L55",
       "_origin": "ast",
       "id": "model_configuracao_configuracao_isanimacoesativas",
-      "community": 2,
+      "community": 30,
       "norm_label": ".isanimacoesativas()"
     },
     {
@@ -1778,7 +1778,7 @@
       "source_location": "L56",
       "_origin": "ast",
       "id": "model_configuracao_configuracao_setanimacoesativas",
-      "community": 2,
+      "community": 30,
       "norm_label": ".setanimacoesativas()"
     },
     {
@@ -1788,7 +1788,7 @@
       "source_location": "L58",
       "_origin": "ast",
       "id": "model_configuracao_configuracao_getlinksite",
-      "community": 6,
+      "community": 32,
       "norm_label": ".getlinksite()"
     },
     {
@@ -1798,7 +1798,7 @@
       "source_location": "L59",
       "_origin": "ast",
       "id": "model_configuracao_configuracao_setlinksite",
-      "community": 2,
+      "community": 30,
       "norm_label": ".setlinksite()"
     },
     {
@@ -1808,7 +1808,7 @@
       "source_location": "L61",
       "_origin": "ast",
       "id": "model_configuracao_configuracao_getraioborada",
-      "community": 2,
+      "community": 29,
       "norm_label": ".getraioborada()"
     },
     {
@@ -1818,7 +1818,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "model_configuracao_configuracao_setraioborada",
-      "community": 2,
+      "community": 30,
       "norm_label": ".setraioborada()"
     },
     {
@@ -2635,7 +2635,7 @@
       "label": "FaturaFinanceira",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
-      "source_location": "L18",
+      "source_location": "L20",
       "_origin": "ast",
       "id": "model_faturafinanceira_faturafinanceira",
       "community": 13,
@@ -2645,7 +2645,7 @@
       "label": ".FaturaFinanceira()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
-      "source_location": "L30",
+      "source_location": "L32",
       "_origin": "ast",
       "id": "model_faturafinanceira_faturafinanceira_faturafinanceira",
       "community": 13,
@@ -2655,7 +2655,7 @@
       "label": "BigDecimal",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
-      "source_location": "L30",
+      "source_location": "L32",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_model_faturafinanceira_java_bigdecimal",
       "community": 13,
@@ -2665,7 +2665,7 @@
       "label": "LocalDate",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
-      "source_location": "L30",
+      "source_location": "L32",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_model_faturafinanceira_java_localdate",
       "community": 13,
@@ -2675,7 +2675,7 @@
       "label": "String",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
-      "source_location": "L30",
+      "source_location": "L32",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_model_faturafinanceira_java_string",
       "community": 13,
@@ -2685,7 +2685,7 @@
       "label": "Empresa",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
-      "source_location": "L30",
+      "source_location": "L32",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_model_faturafinanceira_java_empresa",
       "community": 13,
@@ -2695,7 +2695,7 @@
       "label": ".getId()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
-      "source_location": "L45",
+      "source_location": "L47",
       "_origin": "ast",
       "id": "model_faturafinanceira_faturafinanceira_getid",
       "community": 13,
@@ -2705,7 +2705,7 @@
       "label": ".getValor()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
-      "source_location": "L46",
+      "source_location": "L48",
       "_origin": "ast",
       "id": "model_faturafinanceira_faturafinanceira_getvalor",
       "community": 13,
@@ -2715,7 +2715,7 @@
       "label": ".getDataVencimento()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
-      "source_location": "L47",
+      "source_location": "L49",
       "_origin": "ast",
       "id": "model_faturafinanceira_faturafinanceira_getdatavencimento",
       "community": 13,
@@ -2725,7 +2725,7 @@
       "label": ".getDescricao()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
-      "source_location": "L48",
+      "source_location": "L50",
       "_origin": "ast",
       "id": "model_faturafinanceira_faturafinanceira_getdescricao",
       "community": 13,
@@ -2735,7 +2735,7 @@
       "label": ".getEmpresa()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
-      "source_location": "L49",
+      "source_location": "L51",
       "_origin": "ast",
       "id": "model_faturafinanceira_faturafinanceira_getempresa",
       "community": 13,
@@ -2745,7 +2745,7 @@
       "label": ".getCriadaEm()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
-      "source_location": "L50",
+      "source_location": "L52",
       "_origin": "ast",
       "id": "model_faturafinanceira_faturafinanceira_getcriadaem",
       "community": 13,
@@ -2755,7 +2755,7 @@
       "label": "LocalDateTime",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
-      "source_location": "L50",
+      "source_location": "L52",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_model_faturafinanceira_java_localdatetime",
       "community": 13,
@@ -2765,7 +2765,7 @@
       "label": ".getQuitadaEm()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
-      "source_location": "L51",
+      "source_location": "L53",
       "_origin": "ast",
       "id": "model_faturafinanceira_faturafinanceira_getquitadaem",
       "community": 13,
@@ -2775,7 +2775,7 @@
       "label": ".getEstado()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
-      "source_location": "L57",
+      "source_location": "L59",
       "_origin": "ast",
       "id": "model_faturafinanceira_faturafinanceira_getestado",
       "community": 13,
@@ -2785,7 +2785,7 @@
       "label": "EstadoFatura",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
-      "source_location": "L57",
+      "source_location": "L59",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_model_faturafinanceira_java_estadofatura",
       "community": 13,
@@ -2795,7 +2795,7 @@
       "label": ".marcarComoQuitada()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
-      "source_location": "L75",
+      "source_location": "L78",
       "_origin": "ast",
       "id": "model_faturafinanceira_faturafinanceira_marcarcomoquitada",
       "community": 13,
@@ -2805,7 +2805,7 @@
       "label": ".alterarEstado()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
-      "source_location": "L87",
+      "source_location": "L91",
       "_origin": "ast",
       "id": "model_faturafinanceira_faturafinanceira_alterarestado",
       "community": 13,
@@ -2815,7 +2815,7 @@
       "label": ".registrarQuitacao()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
-      "source_location": "L92",
+      "source_location": "L96",
       "_origin": "ast",
       "id": "model_faturafinanceira_faturafinanceira_registrarquitacao",
       "community": 13,
@@ -2825,11 +2825,41 @@
       "label": ".estaQuitada()",
       "file_type": "code",
       "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
-      "source_location": "L97",
+      "source_location": "L101",
       "_origin": "ast",
       "id": "model_faturafinanceira_faturafinanceira_estaquitada",
       "community": 13,
       "norm_label": ".estaquitada()"
+    },
+    {
+      "label": ".readObject()",
+      "file_type": "code",
+      "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
+      "source_location": "L110",
+      "_origin": "ast",
+      "id": "model_faturafinanceira_faturafinanceira_readobject",
+      "community": 13,
+      "norm_label": ".readobject()"
+    },
+    {
+      "label": "ObjectInputStream",
+      "file_type": "code",
+      "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
+      "source_location": "L110",
+      "_origin": "ast",
+      "id": "objectinputstream",
+      "community": 13,
+      "norm_label": "objectinputstream"
+    },
+    {
+      "label": ".inicializarEstadoSeNecessario()",
+      "file_type": "code",
+      "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
+      "source_location": "L115",
+      "_origin": "ast",
+      "id": "model_faturafinanceira_faturafinanceira_inicializarestadosenecessario",
+      "community": 13,
+      "norm_label": ".inicializarestadosenecessario()"
     },
     {
       "label": "ItemVenda.java",
@@ -3808,7 +3838,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "view_telaconfigview_telaconfigview_construirtela",
-      "community": 2,
+      "community": 30,
       "norm_label": ".construirtela()"
     },
     {
@@ -4028,7 +4058,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "home_emanuel_henrique_trabalho_pdv_elmix_demo4_src_main_java_pdv_demo4_view_telacontaview_java",
-      "community": 6,
+      "community": 32,
       "norm_label": "telacontaview.java"
     },
     {
@@ -4038,7 +4068,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "view_telacontaview_telacontaview",
-      "community": 6,
+      "community": 32,
       "norm_label": "telacontaview"
     },
     {
@@ -4048,7 +4078,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "view_telacontaview_telacontaview_telacontaview",
-      "community": 6,
+      "community": 32,
       "norm_label": ".telacontaview()"
     },
     {
@@ -4058,7 +4088,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_view_telacontaview_java_configuracao",
-      "community": 6,
+      "community": 32,
       "norm_label": "configuracao"
     },
     {
@@ -4068,7 +4098,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "view_telacontaview_telacontaview_construirtela",
-      "community": 6,
+      "community": 32,
       "norm_label": ".construirtela()"
     },
     {
@@ -4078,7 +4108,7 @@
       "source_location": "L71",
       "_origin": "ast",
       "id": "view_telacontaview_telacontaview_criarlabel",
-      "community": 6,
+      "community": 32,
       "norm_label": ".criarlabel()"
     },
     {
@@ -4088,7 +4118,7 @@
       "source_location": "L71",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_view_telacontaview_java_string",
-      "community": 6,
+      "community": 32,
       "norm_label": "string"
     },
     {
@@ -4098,7 +4128,7 @@
       "source_location": "L71",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_view_telacontaview_java_label",
-      "community": 6,
+      "community": 32,
       "norm_label": "label"
     },
     {
@@ -4108,7 +4138,7 @@
       "source_location": "L79",
       "_origin": "ast",
       "id": "view_telacontaview_telacontaview_getroot",
-      "community": 6,
+      "community": 32,
       "norm_label": ".getroot()"
     },
     {
@@ -4118,7 +4148,7 @@
       "source_location": "L79",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_view_telacontaview_java_borderpane",
-      "community": 6,
+      "community": 32,
       "norm_label": "borderpane"
     },
     {
@@ -4128,7 +4158,7 @@
       "source_location": "L80",
       "_origin": "ast",
       "id": "view_telacontaview_telacontaview_getbtnvoltar",
-      "community": 6,
+      "community": 32,
       "norm_label": ".getbtnvoltar()"
     },
     {
@@ -4138,7 +4168,7 @@
       "source_location": "L80",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_view_telacontaview_java_button",
-      "community": 6,
+      "community": 32,
       "norm_label": "button"
     },
     {
@@ -5208,7 +5238,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "view_telainicialview_telainicialview_telainicialview",
-      "community": 6,
+      "community": 31,
       "norm_label": ".telainicialview()"
     },
     {
@@ -5218,7 +5248,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_view_telainicialview_java_configuracao",
-      "community": 6,
+      "community": 31,
       "norm_label": "configuracao"
     },
     {
@@ -5228,7 +5258,7 @@
       "source_location": "L48",
       "_origin": "ast",
       "id": "view_telainicialview_telainicialview_construirtela",
-      "community": 6,
+      "community": 31,
       "norm_label": ".construirtela()"
     },
     {
@@ -5238,7 +5268,7 @@
       "source_location": "L78",
       "_origin": "ast",
       "id": "view_telainicialview_telainicialview_criarheader",
-      "community": 6,
+      "community": 31,
       "norm_label": ".criarheader()"
     },
     {
@@ -5248,7 +5278,7 @@
       "source_location": "L78",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_view_telainicialview_java_stackpane",
-      "community": 6,
+      "community": 31,
       "norm_label": "stackpane"
     },
     {
@@ -5258,7 +5288,7 @@
       "source_location": "L108",
       "_origin": "ast",
       "id": "view_telainicialview_telainicialview_criarcentro",
-      "community": 6,
+      "community": 31,
       "norm_label": ".criarcentro()"
     },
     {
@@ -5268,7 +5298,7 @@
       "source_location": "L108",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_view_telainicialview_java_vbox",
-      "community": 6,
+      "community": 31,
       "norm_label": "vbox"
     },
     {
@@ -5278,7 +5308,7 @@
       "source_location": "L155",
       "_origin": "ast",
       "id": "view_telainicialview_telainicialview_criarbarraesquerda",
-      "community": 6,
+      "community": 31,
       "norm_label": ".criarbarraesquerda()"
     },
     {
@@ -5308,7 +5338,7 @@
       "source_location": "L177",
       "_origin": "ast",
       "id": "view_telainicialview_telainicialview_criarbarradireita",
-      "community": 6,
+      "community": 31,
       "norm_label": ".criarbarradireita()"
     },
     {
@@ -5318,7 +5348,7 @@
       "source_location": "L198",
       "_origin": "ast",
       "id": "view_telainicialview_telainicialview_criarfooter",
-      "community": 6,
+      "community": 31,
       "norm_label": ".criarfooter()"
     },
     {
@@ -5328,7 +5358,7 @@
       "source_location": "L226",
       "_origin": "ast",
       "id": "view_telainicialview_telainicialview_criarbotao",
-      "community": 2,
+      "community": 31,
       "norm_label": ".criarbotao()"
     },
     {
@@ -5338,7 +5368,7 @@
       "source_location": "L226",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_view_telainicialview_java_string",
-      "community": 2,
+      "community": 31,
       "norm_label": "string"
     },
     {
@@ -5468,7 +5498,7 @@
       "source_location": "L276",
       "_origin": "ast",
       "id": "view_telainicialview_telainicialview_atualizarestilos",
-      "community": 6,
+      "community": 31,
       "norm_label": ".atualizarestilos()"
     },
     {
@@ -5478,7 +5508,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "home_emanuel_henrique_trabalho_pdv_elmix_demo4_src_main_java_pdv_demo4_view_telamoneyview_java",
-      "community": 2,
+      "community": 29,
       "norm_label": "telamoneyview.java"
     },
     {
@@ -5488,7 +5518,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "view_telamoneyview_telamoneyview",
-      "community": 2,
+      "community": 29,
       "norm_label": "telamoneyview"
     },
     {
@@ -5498,7 +5528,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "view_telamoneyview_telamoneyview_telamoneyview",
-      "community": 2,
+      "community": 29,
       "norm_label": ".telamoneyview()"
     },
     {
@@ -5508,7 +5538,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_view_telamoneyview_java_configuracao",
-      "community": 2,
+      "community": 29,
       "norm_label": "configuracao"
     },
     {
@@ -5518,7 +5548,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "view_telamoneyview_telamoneyview_construirtela",
-      "community": 2,
+      "community": 29,
       "norm_label": ".construirtela()"
     },
     {
@@ -5528,7 +5558,7 @@
       "source_location": "L56",
       "_origin": "ast",
       "id": "view_telamoneyview_telamoneyview_criarheader",
-      "community": 2,
+      "community": 29,
       "norm_label": ".criarheader()"
     },
     {
@@ -5538,7 +5568,7 @@
       "source_location": "L56",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_view_telamoneyview_java_hbox",
-      "community": 2,
+      "community": 29,
       "norm_label": "hbox"
     },
     {
@@ -5548,7 +5578,7 @@
       "source_location": "L75",
       "_origin": "ast",
       "id": "view_telamoneyview_telamoneyview_criarpainelesquerdo",
-      "community": 2,
+      "community": 29,
       "norm_label": ".criarpainelesquerdo()"
     },
     {
@@ -5558,7 +5588,7 @@
       "source_location": "L75",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_view_telamoneyview_java_vbox",
-      "community": 2,
+      "community": 29,
       "norm_label": "vbox"
     },
     {
@@ -5568,7 +5598,7 @@
       "source_location": "L99",
       "_origin": "ast",
       "id": "view_telamoneyview_telamoneyview_criarpaineldireito",
-      "community": 2,
+      "community": 29,
       "norm_label": ".criarpaineldireito()"
     },
     {
@@ -5578,7 +5608,7 @@
       "source_location": "L128",
       "_origin": "ast",
       "id": "view_telamoneyview_telamoneyview_populardados",
-      "community": 2,
+      "community": 29,
       "norm_label": ".populardados()"
     },
     {
@@ -5588,7 +5618,7 @@
       "source_location": "L128",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_view_telamoneyview_java_string",
-      "community": 2,
+      "community": 29,
       "norm_label": "string"
     },
     {
@@ -5598,7 +5628,7 @@
       "source_location": "L152",
       "_origin": "ast",
       "id": "view_telamoneyview_telamoneyview_criarbotao",
-      "community": 2,
+      "community": 29,
       "norm_label": ".criarbotao()"
     },
     {
@@ -5608,7 +5638,7 @@
       "source_location": "L152",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_view_telamoneyview_java_button",
-      "community": 2,
+      "community": 29,
       "norm_label": "button"
     },
     {
@@ -5618,7 +5648,7 @@
       "source_location": "L168",
       "_origin": "ast",
       "id": "view_telamoneyview_telamoneyview_criarbotaoverde",
-      "community": 2,
+      "community": 29,
       "norm_label": ".criarbotaoverde()"
     },
     {
@@ -5628,7 +5658,7 @@
       "source_location": "L179",
       "_origin": "ast",
       "id": "view_telamoneyview_telamoneyview_getroot",
-      "community": 2,
+      "community": 29,
       "norm_label": ".getroot()"
     },
     {
@@ -5638,7 +5668,7 @@
       "source_location": "L179",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_view_telamoneyview_java_borderpane",
-      "community": 2,
+      "community": 29,
       "norm_label": "borderpane"
     },
     {
@@ -5648,7 +5678,7 @@
       "source_location": "L180",
       "_origin": "ast",
       "id": "view_telamoneyview_telamoneyview_getbtnvoltar",
-      "community": 2,
+      "community": 29,
       "norm_label": ".getbtnvoltar()"
     },
     {
@@ -5658,7 +5688,7 @@
       "source_location": "L181",
       "_origin": "ast",
       "id": "view_telamoneyview_telamoneyview_getbtnbaixartxt",
-      "community": 2,
+      "community": 29,
       "norm_label": ".getbtnbaixartxt()"
     },
     {
@@ -5668,7 +5698,7 @@
       "source_location": "L182",
       "_origin": "ast",
       "id": "view_telamoneyview_telamoneyview_gettxtresumo",
-      "community": 2,
+      "community": 29,
       "norm_label": ".gettxtresumo()"
     },
     {
@@ -5678,7 +5708,7 @@
       "source_location": "L182",
       "_origin": "ast",
       "id": "demo4_src_main_java_pdv_demo4_view_telamoneyview_java_textarea",
-      "community": 2,
+      "community": 29,
       "norm_label": "textarea"
     },
     {
@@ -6192,10 +6222,20 @@
       "norm_label": ".estadoserializadocontinualigadoaocontextorestaurado()"
     },
     {
-      "label": ".novaFatura()",
+      "label": ".faturaAntigaSemEstadoRecuperaSeuEstadoAoSerDesserializada()",
       "file_type": "code",
       "source_file": "demo4/src/test/java/pdv/demo4/model/FaturaFinanceiraTest.java",
       "source_location": "L86",
+      "_origin": "ast",
+      "id": "model_faturafinanceiratest_faturafinanceiratest_faturaantigasemestadorecuperaseuestadoaoserdesserializada",
+      "community": 13,
+      "norm_label": ".faturaantigasemestadorecuperaseuestadoaoserdesserializada()"
+    },
+    {
+      "label": ".novaFatura()",
+      "file_type": "code",
+      "source_file": "demo4/src/test/java/pdv/demo4/model/FaturaFinanceiraTest.java",
+      "source_location": "L107",
       "_origin": "ast",
       "id": "model_faturafinanceiratest_faturafinanceiratest_novafatura",
       "community": 13,
@@ -6205,7 +6245,7 @@
       "label": "LocalDate",
       "file_type": "code",
       "source_file": "demo4/src/test/java/pdv/demo4/model/FaturaFinanceiraTest.java",
-      "source_location": "L86",
+      "source_location": "L107",
       "_origin": "ast",
       "id": "demo4_src_test_java_pdv_demo4_model_faturafinanceiratest_java_localdate",
       "community": 13,
@@ -6215,7 +6255,7 @@
       "label": "FaturaFinanceira",
       "file_type": "code",
       "source_file": "demo4/src/test/java/pdv/demo4/model/FaturaFinanceiraTest.java",
-      "source_location": "L86",
+      "source_location": "L107",
       "_origin": "ast",
       "id": "demo4_src_test_java_pdv_demo4_model_faturafinanceiratest_java_faturafinanceira",
       "community": 13,
@@ -6290,6 +6330,16 @@
       "id": "atividade",
       "community": 20,
       "norm_label": "atividade.md"
+    },
+    {
+      "label": "Observer.md",
+      "file_type": "document",
+      "source_file": "Observer.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "observer",
+      "community": 33,
+      "norm_label": "observer.md"
     },
     {
       "label": "StateExemple.md",
@@ -6917,6 +6967,17 @@
       "confidence_score": 1.0,
       "source": "demo4_elmixapp",
       "target": "keyevent"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "demo4_elmixapp",
+      "target": "objectinputstream",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -11259,6 +11320,17 @@
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
+      "source_location": "L1459",
+      "weight": 1.0,
+      "source": "demo4_elmixapp_elmixapp_mostrartelabackup",
+      "target": "model_faturafinanceira_faturafinanceira_readobject"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "demo4/src/main/java/pdv/demo4/ElmixApp.java",
       "source_location": "L1105",
       "weight": 1.0,
       "source": "demo4_elmixapp_elmixapp_mostrartelabackup",
@@ -12016,6 +12088,17 @@
       "confidence_score": 1.0,
       "source": "controller_financeirocontroller_financeirocontroller_carregardados",
       "target": "demo4_src_main_java_pdv_demo4_controller_financeirocontroller_java_dadosfinanceiros"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "demo4/src/main/java/pdv/demo4/controller/FinanceiroController.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "controller_financeirocontroller_financeirocontroller_carregardados",
+      "target": "model_faturafinanceira_faturafinanceira_readobject"
     },
     {
       "relation": "calls",
@@ -14180,9 +14263,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFatura.java",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofatura",
-      "target": "serializable",
-      "confidence_score": 1.0
+      "target": "serializable"
     },
     {
       "relation": "implements",
@@ -14190,9 +14273,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFatura.java",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofatura_estadofatura",
-      "target": "serializable",
-      "confidence_score": 1.0
+      "target": "serializable"
     },
     {
       "relation": "imports",
@@ -15817,9 +15900,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFatura.java",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofatura",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofatura_java_localdate",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofatura_java_localdate"
     },
     {
       "relation": "imports",
@@ -15828,9 +15911,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFatura.java",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofatura",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofatura_java_localdatetime",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofatura_java_localdatetime"
     },
     {
       "relation": "contains",
@@ -15838,9 +15921,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFatura.java",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofatura",
-      "target": "model_estadofatura_estadofatura",
-      "confidence_score": 1.0
+      "target": "model_estadofatura_estadofatura"
     },
     {
       "relation": "references",
@@ -15849,9 +15932,9 @@
       "source_location": "L34",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "model_estadofatura_estadofatura_atualizar",
-      "target": "model_estadofatura_estadofatura",
-      "confidence_score": 1.0
+      "target": "model_estadofatura_estadofatura"
     },
     {
       "relation": "method",
@@ -15859,9 +15942,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFatura.java",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofatura_estadofatura",
-      "target": "model_estadofatura_estadofatura_concluirquitacao",
-      "confidence_score": 1.0
+      "target": "model_estadofatura_estadofatura_concluirquitacao"
     },
     {
       "relation": "method",
@@ -15869,9 +15952,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFatura.java",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofatura_estadofatura",
-      "target": "model_estadofatura_estadofatura_estadofatura",
-      "confidence_score": 1.0
+      "target": "model_estadofatura_estadofatura_estadofatura"
     },
     {
       "relation": "method",
@@ -15879,9 +15962,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFatura.java",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofatura_estadofatura",
-      "target": "model_estadofatura_estadofatura_estaquitada",
-      "confidence_score": 1.0
+      "target": "model_estadofatura_estadofatura_estaquitada"
     },
     {
       "relation": "method",
@@ -15889,9 +15972,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFatura.java",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofatura_estadofatura",
-      "target": "model_estadofatura_estadofatura_getnome",
-      "confidence_score": 1.0
+      "target": "model_estadofatura_estadofatura_getnome"
     },
     {
       "relation": "method",
@@ -15899,9 +15982,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFatura.java",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofatura_estadofatura",
-      "target": "model_estadofatura_estadofatura_marcarcomoquitada",
-      "confidence_score": 1.0
+      "target": "model_estadofatura_estadofatura_marcarcomoquitada"
     },
     {
       "relation": "method",
@@ -15909,9 +15992,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFatura.java",
       "source_location": "L59",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofatura_estadofatura",
-      "target": "model_estadofatura_estadofatura_validardatapagamento",
-      "confidence_score": 1.0
+      "target": "model_estadofatura_estadofatura_validardatapagamento"
     },
     {
       "relation": "references",
@@ -15920,9 +16003,9 @@
       "source_location": "L26",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "model_estadofatura_estadofatura_estadofatura",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofatura_java_faturafinanceira",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofatura_java_faturafinanceira"
     },
     {
       "relation": "references",
@@ -15931,9 +16014,9 @@
       "source_location": "L34",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "model_estadofatura_estadofatura_atualizar",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofatura_java_localdate",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofatura_java_localdate"
     },
     {
       "relation": "references",
@@ -15942,9 +16025,9 @@
       "source_location": "L39",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "model_estadofatura_estadofatura_marcarcomoquitada",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofatura_java_localdatetime",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofatura_java_localdatetime"
     },
     {
       "relation": "references",
@@ -15953,9 +16036,9 @@
       "source_location": "L52",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "model_estadofatura_estadofatura_concluirquitacao",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofatura_java_localdatetime",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofatura_java_localdatetime"
     },
     {
       "relation": "references",
@@ -15964,9 +16047,9 @@
       "source_location": "L59",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "model_estadofatura_estadofatura_validardatapagamento",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofatura_java_localdatetime",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofatura_java_localdatetime"
     },
     {
       "relation": "references",
@@ -15975,9 +16058,9 @@
       "source_location": "L42",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "model_estadofatura_estadofatura_getnome",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofatura_java_string",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofatura_java_string"
     },
     {
       "relation": "calls",
@@ -15986,9 +16069,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFatura.java",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofatura_estadofatura_concluirquitacao",
-      "target": "model_estadofatura_estadofatura_validardatapagamento",
-      "confidence_score": 1.0
+      "target": "model_estadofatura_estadofatura_validardatapagamento"
     },
     {
       "relation": "calls",
@@ -16052,9 +16135,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFaturaAberta.java",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofaturaaberta",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaaberta_java_localdate",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaaberta_java_localdate"
     },
     {
       "relation": "imports",
@@ -16063,9 +16146,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFaturaAberta.java",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofaturaaberta",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaaberta_java_localdatetime",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaaberta_java_localdatetime"
     },
     {
       "relation": "contains",
@@ -16073,9 +16156,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFaturaAberta.java",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofaturaaberta",
-      "target": "model_estadofaturaaberta_estadofaturaaberta",
-      "confidence_score": 1.0
+      "target": "model_estadofaturaaberta_estadofaturaaberta"
     },
     {
       "relation": "inherits",
@@ -16083,9 +16166,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFaturaAberta.java",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofaturaaberta_estadofaturaaberta",
-      "target": "estadofatura",
-      "confidence_score": 1.0
+      "target": "estadofatura"
     },
     {
       "relation": "method",
@@ -16093,9 +16176,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFaturaAberta.java",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofaturaaberta_estadofaturaaberta",
-      "target": "model_estadofaturaaberta_estadofaturaaberta_atualizar",
-      "confidence_score": 1.0
+      "target": "model_estadofaturaaberta_estadofaturaaberta_atualizar"
     },
     {
       "relation": "method",
@@ -16103,9 +16186,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFaturaAberta.java",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofaturaaberta_estadofaturaaberta",
-      "target": "model_estadofaturaaberta_estadofaturaaberta_estadofaturaaberta",
-      "confidence_score": 1.0
+      "target": "model_estadofaturaaberta_estadofaturaaberta_estadofaturaaberta"
     },
     {
       "relation": "method",
@@ -16113,9 +16196,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFaturaAberta.java",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofaturaaberta_estadofaturaaberta",
-      "target": "model_estadofaturaaberta_estadofaturaaberta_estaquitada",
-      "confidence_score": 1.0
+      "target": "model_estadofaturaaberta_estadofaturaaberta_estaquitada"
     },
     {
       "relation": "method",
@@ -16123,9 +16206,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFaturaAberta.java",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofaturaaberta_estadofaturaaberta",
-      "target": "model_estadofaturaaberta_estadofaturaaberta_getnome",
-      "confidence_score": 1.0
+      "target": "model_estadofaturaaberta_estadofaturaaberta_getnome"
     },
     {
       "relation": "method",
@@ -16133,9 +16216,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFaturaAberta.java",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofaturaaberta_estadofaturaaberta",
-      "target": "model_estadofaturaaberta_estadofaturaaberta_marcarcomoquitada",
-      "confidence_score": 1.0
+      "target": "model_estadofaturaaberta_estadofaturaaberta_marcarcomoquitada"
     },
     {
       "relation": "references",
@@ -16144,9 +16227,9 @@
       "source_location": "L20",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "model_estadofaturaaberta_estadofaturaaberta_atualizar",
-      "target": "estadofatura",
-      "confidence_score": 1.0
+      "target": "estadofatura"
     },
     {
       "relation": "inherits",
@@ -16154,9 +16237,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFaturaAtrasada.java",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofaturaatrasada_estadofaturaatrasada",
-      "target": "estadofatura",
-      "confidence_score": 1.0
+      "target": "estadofatura"
     },
     {
       "relation": "references",
@@ -16165,9 +16248,9 @@
       "source_location": "L20",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "model_estadofaturaatrasada_estadofaturaatrasada_atualizar",
-      "target": "estadofatura",
-      "confidence_score": 1.0
+      "target": "estadofatura"
     },
     {
       "relation": "inherits",
@@ -16175,9 +16258,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFaturaQuitada.java",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofaturaquitada_estadofaturaquitada",
-      "target": "estadofatura",
-      "confidence_score": 1.0
+      "target": "estadofatura"
     },
     {
       "relation": "references",
@@ -16186,9 +16269,9 @@
       "source_location": "L20",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "model_estadofaturaquitada_estadofaturaquitada_atualizar",
-      "target": "estadofatura",
-      "confidence_score": 1.0
+      "target": "estadofatura"
     },
     {
       "relation": "references",
@@ -16219,9 +16302,9 @@
       "source_location": "L16",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "model_estadofaturaaberta_estadofaturaaberta_estadofaturaaberta",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaaberta_java_faturafinanceira",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaaberta_java_faturafinanceira"
     },
     {
       "relation": "references",
@@ -16230,9 +16313,9 @@
       "source_location": "L20",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "model_estadofaturaaberta_estadofaturaaberta_atualizar",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaaberta_java_localdate",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaaberta_java_localdate"
     },
     {
       "relation": "references",
@@ -16241,9 +16324,9 @@
       "source_location": "L20",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "model_estadofaturaaberta_estadofaturaaberta_atualizar",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaaberta_java_override",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaaberta_java_override"
     },
     {
       "relation": "calls",
@@ -16274,9 +16357,9 @@
       "source_location": "L41",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "model_estadofaturaaberta_estadofaturaaberta_estaquitada",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaaberta_java_override",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaaberta_java_override"
     },
     {
       "relation": "references",
@@ -16285,9 +16368,9 @@
       "source_location": "L36",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "model_estadofaturaaberta_estadofaturaaberta_getnome",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaaberta_java_override",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaaberta_java_override"
     },
     {
       "relation": "references",
@@ -16296,9 +16379,9 @@
       "source_location": "L31",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "model_estadofaturaaberta_estadofaturaaberta_marcarcomoquitada",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaaberta_java_override",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaaberta_java_override"
     },
     {
       "relation": "references",
@@ -16307,9 +16390,9 @@
       "source_location": "L31",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "model_estadofaturaaberta_estadofaturaaberta_marcarcomoquitada",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaaberta_java_localdatetime",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaaberta_java_localdatetime"
     },
     {
       "relation": "references",
@@ -16318,9 +16401,9 @@
       "source_location": "L36",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "model_estadofaturaaberta_estadofaturaaberta_getnome",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaaberta_java_string",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaaberta_java_string"
     },
     {
       "relation": "imports",
@@ -16329,9 +16412,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFaturaAtrasada.java",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofaturaatrasada",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaatrasada_java_localdate",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaatrasada_java_localdate"
     },
     {
       "relation": "imports",
@@ -16340,9 +16423,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFaturaAtrasada.java",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofaturaatrasada",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaatrasada_java_localdatetime",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaatrasada_java_localdatetime"
     },
     {
       "relation": "contains",
@@ -16350,9 +16433,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFaturaAtrasada.java",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofaturaatrasada",
-      "target": "model_estadofaturaatrasada_estadofaturaatrasada",
-      "confidence_score": 1.0
+      "target": "model_estadofaturaatrasada_estadofaturaatrasada"
     },
     {
       "relation": "method",
@@ -16360,9 +16443,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFaturaAtrasada.java",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofaturaatrasada_estadofaturaatrasada",
-      "target": "model_estadofaturaatrasada_estadofaturaatrasada_atualizar",
-      "confidence_score": 1.0
+      "target": "model_estadofaturaatrasada_estadofaturaatrasada_atualizar"
     },
     {
       "relation": "method",
@@ -16370,9 +16453,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFaturaAtrasada.java",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofaturaatrasada_estadofaturaatrasada",
-      "target": "model_estadofaturaatrasada_estadofaturaatrasada_estadofaturaatrasada",
-      "confidence_score": 1.0
+      "target": "model_estadofaturaatrasada_estadofaturaatrasada_estadofaturaatrasada"
     },
     {
       "relation": "method",
@@ -16380,9 +16463,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFaturaAtrasada.java",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofaturaatrasada_estadofaturaatrasada",
-      "target": "model_estadofaturaatrasada_estadofaturaatrasada_estaquitada",
-      "confidence_score": 1.0
+      "target": "model_estadofaturaatrasada_estadofaturaatrasada_estaquitada"
     },
     {
       "relation": "method",
@@ -16390,9 +16473,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFaturaAtrasada.java",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofaturaatrasada_estadofaturaatrasada",
-      "target": "model_estadofaturaatrasada_estadofaturaatrasada_getnome",
-      "confidence_score": 1.0
+      "target": "model_estadofaturaatrasada_estadofaturaatrasada_getnome"
     },
     {
       "relation": "method",
@@ -16400,9 +16483,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFaturaAtrasada.java",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofaturaatrasada_estadofaturaatrasada",
-      "target": "model_estadofaturaatrasada_estadofaturaatrasada_marcarcomoquitada",
-      "confidence_score": 1.0
+      "target": "model_estadofaturaatrasada_estadofaturaatrasada_marcarcomoquitada"
     },
     {
       "relation": "references",
@@ -16411,9 +16494,9 @@
       "source_location": "L16",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "model_estadofaturaatrasada_estadofaturaatrasada_estadofaturaatrasada",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaatrasada_java_faturafinanceira",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaatrasada_java_faturafinanceira"
     },
     {
       "relation": "references",
@@ -16422,9 +16505,9 @@
       "source_location": "L20",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "model_estadofaturaatrasada_estadofaturaatrasada_atualizar",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaatrasada_java_localdate",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaatrasada_java_localdate"
     },
     {
       "relation": "references",
@@ -16433,9 +16516,9 @@
       "source_location": "L20",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "model_estadofaturaatrasada_estadofaturaatrasada_atualizar",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaatrasada_java_override",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaatrasada_java_override"
     },
     {
       "relation": "references",
@@ -16444,9 +16527,9 @@
       "source_location": "L36",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "model_estadofaturaatrasada_estadofaturaatrasada_estaquitada",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaatrasada_java_override",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaatrasada_java_override"
     },
     {
       "relation": "references",
@@ -16455,9 +16538,9 @@
       "source_location": "L31",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "model_estadofaturaatrasada_estadofaturaatrasada_getnome",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaatrasada_java_override",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaatrasada_java_override"
     },
     {
       "relation": "references",
@@ -16466,9 +16549,9 @@
       "source_location": "L26",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "model_estadofaturaatrasada_estadofaturaatrasada_marcarcomoquitada",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaatrasada_java_override",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaatrasada_java_override"
     },
     {
       "relation": "references",
@@ -16477,9 +16560,9 @@
       "source_location": "L26",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "model_estadofaturaatrasada_estadofaturaatrasada_marcarcomoquitada",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaatrasada_java_localdatetime",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaatrasada_java_localdatetime"
     },
     {
       "relation": "references",
@@ -16488,9 +16571,9 @@
       "source_location": "L31",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "model_estadofaturaatrasada_estadofaturaatrasada_getnome",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaatrasada_java_string",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaatrasada_java_string"
     },
     {
       "relation": "imports",
@@ -16499,9 +16582,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFaturaQuitada.java",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofaturaquitada",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaquitada_java_localdate",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaquitada_java_localdate"
     },
     {
       "relation": "imports",
@@ -16510,9 +16593,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFaturaQuitada.java",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofaturaquitada",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaquitada_java_localdatetime",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaquitada_java_localdatetime"
     },
     {
       "relation": "contains",
@@ -16520,9 +16603,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFaturaQuitada.java",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofaturaquitada",
-      "target": "model_estadofaturaquitada_estadofaturaquitada",
-      "confidence_score": 1.0
+      "target": "model_estadofaturaquitada_estadofaturaquitada"
     },
     {
       "relation": "method",
@@ -16530,9 +16613,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFaturaQuitada.java",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofaturaquitada_estadofaturaquitada",
-      "target": "model_estadofaturaquitada_estadofaturaquitada_atualizar",
-      "confidence_score": 1.0
+      "target": "model_estadofaturaquitada_estadofaturaquitada_atualizar"
     },
     {
       "relation": "method",
@@ -16540,9 +16623,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFaturaQuitada.java",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofaturaquitada_estadofaturaquitada",
-      "target": "model_estadofaturaquitada_estadofaturaquitada_estadofaturaquitada",
-      "confidence_score": 1.0
+      "target": "model_estadofaturaquitada_estadofaturaquitada_estadofaturaquitada"
     },
     {
       "relation": "method",
@@ -16550,9 +16633,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFaturaQuitada.java",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofaturaquitada_estadofaturaquitada",
-      "target": "model_estadofaturaquitada_estadofaturaquitada_estaquitada",
-      "confidence_score": 1.0
+      "target": "model_estadofaturaquitada_estadofaturaquitada_estaquitada"
     },
     {
       "relation": "method",
@@ -16560,9 +16643,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFaturaQuitada.java",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofaturaquitada_estadofaturaquitada",
-      "target": "model_estadofaturaquitada_estadofaturaquitada_getnome",
-      "confidence_score": 1.0
+      "target": "model_estadofaturaquitada_estadofaturaquitada_getnome"
     },
     {
       "relation": "method",
@@ -16570,9 +16653,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/EstadoFaturaQuitada.java",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_estadofaturaquitada_estadofaturaquitada",
-      "target": "model_estadofaturaquitada_estadofaturaquitada_marcarcomoquitada",
-      "confidence_score": 1.0
+      "target": "model_estadofaturaquitada_estadofaturaquitada_marcarcomoquitada"
     },
     {
       "relation": "references",
@@ -16581,9 +16664,9 @@
       "source_location": "L16",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "model_estadofaturaquitada_estadofaturaquitada_estadofaturaquitada",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaquitada_java_faturafinanceira",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaquitada_java_faturafinanceira"
     },
     {
       "relation": "references",
@@ -16592,9 +16675,9 @@
       "source_location": "L20",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "model_estadofaturaquitada_estadofaturaquitada_atualizar",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaquitada_java_localdate",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaquitada_java_localdate"
     },
     {
       "relation": "references",
@@ -16603,9 +16686,9 @@
       "source_location": "L20",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "model_estadofaturaquitada_estadofaturaquitada_atualizar",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaquitada_java_override",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaquitada_java_override"
     },
     {
       "relation": "references",
@@ -16614,9 +16697,9 @@
       "source_location": "L37",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "model_estadofaturaquitada_estadofaturaquitada_estaquitada",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaquitada_java_override",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaquitada_java_override"
     },
     {
       "relation": "references",
@@ -16625,9 +16708,9 @@
       "source_location": "L32",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "model_estadofaturaquitada_estadofaturaquitada_getnome",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaquitada_java_override",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaquitada_java_override"
     },
     {
       "relation": "references",
@@ -16636,9 +16719,9 @@
       "source_location": "L26",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "model_estadofaturaquitada_estadofaturaquitada_marcarcomoquitada",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaquitada_java_override",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaquitada_java_override"
     },
     {
       "relation": "references",
@@ -16647,9 +16730,9 @@
       "source_location": "L26",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "model_estadofaturaquitada_estadofaturaquitada_marcarcomoquitada",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaquitada_java_localdatetime",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaquitada_java_localdatetime"
     },
     {
       "relation": "references",
@@ -16658,9 +16741,9 @@
       "source_location": "L32",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "model_estadofaturaquitada_estadofaturaquitada_getnome",
-      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaquitada_java_string",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_estadofaturaquitada_java_string"
     },
     {
       "relation": "imports",
@@ -16706,14 +16789,25 @@
       "target": "model_faturafinanceira_faturafinanceira"
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "model_faturafinanceira",
+      "target": "objectinputstream",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
       "source_location": "L87",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_faturafinanceira_faturafinanceira",
-      "target": "model_faturafinanceira_faturafinanceira_alterarestado",
-      "confidence_score": 1.0
+      "target": "model_faturafinanceira_faturafinanceira_alterarestado"
     },
     {
       "relation": "method",
@@ -16721,9 +16815,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
       "source_location": "L97",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_faturafinanceira_faturafinanceira",
-      "target": "model_faturafinanceira_faturafinanceira_estaquitada",
-      "confidence_score": 1.0
+      "target": "model_faturafinanceira_faturafinanceira_estaquitada"
     },
     {
       "relation": "method",
@@ -16819,6 +16913,16 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "model_faturafinanceira_faturafinanceira",
+      "target": "model_faturafinanceira_faturafinanceira_inicializarestadosenecessario",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
       "source_location": "L53",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -16829,11 +16933,21 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
-      "source_location": "L92",
+      "source_location": "L110",
       "weight": 1.0,
       "source": "model_faturafinanceira_faturafinanceira",
-      "target": "model_faturafinanceira_faturafinanceira_registrarquitacao",
+      "target": "model_faturafinanceira_faturafinanceira_readobject",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
+      "source_location": "L92",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "model_faturafinanceira_faturafinanceira",
+      "target": "model_faturafinanceira_faturafinanceira_registrarquitacao"
     },
     {
       "relation": "references",
@@ -16996,9 +17110,9 @@
       "source_location": "L92",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "model_faturafinanceira_faturafinanceira_registrarquitacao",
-      "target": "demo4_src_main_java_pdv_demo4_model_faturafinanceira_java_localdatetime",
-      "confidence_score": 1.0
+      "target": "demo4_src_main_java_pdv_demo4_model_faturafinanceira_java_localdatetime"
     },
     {
       "relation": "calls",
@@ -17040,9 +17154,9 @@
       "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
       "source_location": "L98",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_faturafinanceira_faturafinanceira_estaquitada",
-      "target": "model_faturafinanceira_faturafinanceira_getestado",
-      "confidence_score": 1.0
+      "target": "model_faturafinanceira_faturafinanceira_getestado"
     },
     {
       "relation": "references",
@@ -17051,8 +17165,19 @@
       "source_location": "L65",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "model_faturafinanceira_faturafinanceira_getestado",
-      "target": "demo4_src_main_java_pdv_demo4_model_faturafinanceira_java_estadofatura",
+      "target": "demo4_src_main_java_pdv_demo4_model_faturafinanceira_java_estadofatura"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "model_faturafinanceira_faturafinanceira_getestado",
+      "target": "model_faturafinanceira_faturafinanceira_inicializarestadosenecessario",
       "confidence_score": 1.0
     },
     {
@@ -17075,6 +17200,17 @@
       "source_location": "L65",
       "weight": 1.0,
       "source": "model_faturafinanceiratest_faturafinanceiratest_estadoserializadocontinualigadoaocontextorestaurado",
+      "target": "model_faturafinanceira_faturafinanceira_getestado"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "demo4/src/test/java/pdv/demo4/model/FaturaFinanceiraTest.java",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "model_faturafinanceiratest_faturafinanceiratest_faturaantigasemestadorecuperaseuestadoaoserdesserializada",
       "target": "model_faturafinanceira_faturafinanceira_getestado"
     },
     {
@@ -17128,8 +17264,85 @@
       "source_location": "L87",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "model_faturafinanceira_faturafinanceira_alterarestado",
-      "target": "demo4_src_main_java_pdv_demo4_model_faturafinanceira_java_estadofatura",
+      "target": "demo4_src_main_java_pdv_demo4_model_faturafinanceira_java_estadofatura"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "model_faturafinanceira_faturafinanceira_marcarcomoquitada",
+      "target": "model_faturafinanceira_faturafinanceira_inicializarestadosenecessario",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
+      "source_location": "L112",
+      "weight": 1.0,
+      "source": "model_faturafinanceira_faturafinanceira_readobject",
+      "target": "model_faturafinanceira_faturafinanceira_inicializarestadosenecessario",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java",
+      "source_location": "L110",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "model_faturafinanceira_faturafinanceira_readobject",
+      "target": "objectinputstream",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "demo4/src/test/java/pdv/demo4/model/FaturaFinanceiraTest.java",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "model_faturafinanceiratest_faturafinanceiratest_estadoserializadocontinualigadoaocontextorestaurado",
+      "target": "model_faturafinanceira_faturafinanceira_readobject"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "demo4/src/test/java/pdv/demo4/model/FaturaFinanceiraTest.java",
+      "source_location": "L101",
+      "weight": 1.0,
+      "source": "model_faturafinanceiratest_faturafinanceiratest_faturaantigasemestadorecuperaseuestadoaoserdesserializada",
+      "target": "model_faturafinanceira_faturafinanceira_readobject"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/home/emanuel-henrique/Trabalho/PDV-Elmix/demo4/src/main/java/pdv/demo4/util/PersistenciaUtil.java",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "util_persistenciautil_persistenciautil_carregar",
+      "target": "model_faturafinanceira_faturafinanceira_readobject"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "demo4/src/test/java/pdv/demo4/model/FaturaFinanceiraTest.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "model_faturafinanceiratest",
+      "target": "objectinputstream",
       "confidence_score": 1.0
     },
     {
@@ -23083,9 +23296,9 @@
       "source_file": "demo4/src/test/java/pdv/demo4/model/FaturaFinanceiraTest.java",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_faturafinanceiratest_faturafinanceiratest",
-      "target": "model_faturafinanceiratest_faturafinanceiratest_estadoabertotransicionaparaatrasadodepoisdovencimento",
-      "confidence_score": 1.0
+      "target": "model_faturafinanceiratest_faturafinanceiratest_estadoabertotransicionaparaatrasadodepoisdovencimento"
     },
     {
       "relation": "method",
@@ -23093,8 +23306,18 @@
       "source_file": "demo4/src/test/java/pdv/demo4/model/FaturaFinanceiraTest.java",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_faturafinanceiratest_faturafinanceiratest",
-      "target": "model_faturafinanceiratest_faturafinanceiratest_estadoserializadocontinualigadoaocontextorestaurado",
+      "target": "model_faturafinanceiratest_faturafinanceiratest_estadoserializadocontinualigadoaocontextorestaurado"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "demo4/src/test/java/pdv/demo4/model/FaturaFinanceiraTest.java",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "model_faturafinanceiratest_faturafinanceiratest",
+      "target": "model_faturafinanceiratest_faturafinanceiratest_faturaantigasemestadorecuperaseuestadoaoserdesserializada",
       "confidence_score": 1.0
     },
     {
@@ -23103,9 +23326,9 @@
       "source_file": "demo4/src/test/java/pdv/demo4/model/FaturaFinanceiraTest.java",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_faturafinanceiratest_faturafinanceiratest",
-      "target": "model_faturafinanceiratest_faturafinanceiratest_faturaatrasadapodeserquitadaepermanecequitada",
-      "confidence_score": 1.0
+      "target": "model_faturafinanceiratest_faturafinanceiratest_faturaatrasadapodeserquitadaepermanecequitada"
     },
     {
       "relation": "method",
@@ -23113,9 +23336,9 @@
       "source_file": "demo4/src/test/java/pdv/demo4/model/FaturaFinanceiraTest.java",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_faturafinanceiratest_faturafinanceiratest",
-      "target": "model_faturafinanceiratest_faturafinanceiratest_faturanovacomecaabertaenaoatrasanodiadovencimento",
-      "confidence_score": 1.0
+      "target": "model_faturafinanceiratest_faturafinanceiratest_faturanovacomecaabertaenaoatrasanodiadovencimento"
     },
     {
       "relation": "method",
@@ -23133,9 +23356,9 @@
       "source_file": "demo4/src/test/java/pdv/demo4/model/FaturaFinanceiraTest.java",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_faturafinanceiratest_faturafinanceiratest",
-      "target": "model_faturafinanceiratest_faturafinanceiratest_pagamentosemdataehrejeitadosemalterarestado",
-      "confidence_score": 1.0
+      "target": "model_faturafinanceiratest_faturafinanceiratest_pagamentosemdataehrejeitadosemalterarestado"
     },
     {
       "relation": "references",
@@ -23144,9 +23367,9 @@
       "source_location": "L23",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "model_faturafinanceiratest_faturafinanceiratest_faturanovacomecaabertaenaoatrasanodiadovencimento",
-      "target": "demo4_src_test_java_pdv_demo4_model_faturafinanceiratest_java_test",
-      "confidence_score": 1.0
+      "target": "demo4_src_test_java_pdv_demo4_model_faturafinanceiratest_java_test"
     },
     {
       "relation": "calls",
@@ -23155,9 +23378,9 @@
       "source_file": "demo4/src/test/java/pdv/demo4/model/FaturaFinanceiraTest.java",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_faturafinanceiratest_faturafinanceiratest_faturanovacomecaabertaenaoatrasanodiadovencimento",
-      "target": "model_faturafinanceiratest_faturafinanceiratest_novafatura",
-      "confidence_score": 1.0
+      "target": "model_faturafinanceiratest_faturafinanceiratest_novafatura"
     },
     {
       "relation": "references",
@@ -23166,9 +23389,9 @@
       "source_location": "L31",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "model_faturafinanceiratest_faturafinanceiratest_estadoabertotransicionaparaatrasadodepoisdovencimento",
-      "target": "demo4_src_test_java_pdv_demo4_model_faturafinanceiratest_java_test",
-      "confidence_score": 1.0
+      "target": "demo4_src_test_java_pdv_demo4_model_faturafinanceiratest_java_test"
     },
     {
       "relation": "references",
@@ -23177,7 +23400,18 @@
       "source_location": "L62",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "model_faturafinanceiratest_faturafinanceiratest_estadoserializadocontinualigadoaocontextorestaurado",
+      "target": "demo4_src_test_java_pdv_demo4_model_faturafinanceiratest_java_test"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "demo4/src/test/java/pdv/demo4/model/FaturaFinanceiraTest.java",
+      "source_location": "L86",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "model_faturafinanceiratest_faturafinanceiratest_faturaantigasemestadorecuperaseuestadoaoserdesserializada",
       "target": "demo4_src_test_java_pdv_demo4_model_faturafinanceiratest_java_test",
       "confidence_score": 1.0
     },
@@ -23188,9 +23422,9 @@
       "source_location": "L40",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "model_faturafinanceiratest_faturafinanceiratest_faturaatrasadapodeserquitadaepermanecequitada",
-      "target": "demo4_src_test_java_pdv_demo4_model_faturafinanceiratest_java_test",
-      "confidence_score": 1.0
+      "target": "demo4_src_test_java_pdv_demo4_model_faturafinanceiratest_java_test"
     },
     {
       "relation": "references",
@@ -23199,9 +23433,9 @@
       "source_location": "L53",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "model_faturafinanceiratest_faturafinanceiratest_pagamentosemdataehrejeitadosemalterarestado",
-      "target": "demo4_src_test_java_pdv_demo4_model_faturafinanceiratest_java_test",
-      "confidence_score": 1.0
+      "target": "demo4_src_test_java_pdv_demo4_model_faturafinanceiratest_java_test"
     },
     {
       "relation": "calls",
@@ -23210,9 +23444,9 @@
       "source_file": "demo4/src/test/java/pdv/demo4/model/FaturaFinanceiraTest.java",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_faturafinanceiratest_faturafinanceiratest_estadoabertotransicionaparaatrasadodepoisdovencimento",
-      "target": "model_faturafinanceiratest_faturafinanceiratest_novafatura",
-      "confidence_score": 1.0
+      "target": "model_faturafinanceiratest_faturafinanceiratest_novafatura"
     },
     {
       "relation": "calls",
@@ -23221,9 +23455,9 @@
       "source_file": "demo4/src/test/java/pdv/demo4/model/FaturaFinanceiraTest.java",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_faturafinanceiratest_faturafinanceiratest_faturaatrasadapodeserquitadaepermanecequitada",
-      "target": "model_faturafinanceiratest_faturafinanceiratest_novafatura",
-      "confidence_score": 1.0
+      "target": "model_faturafinanceiratest_faturafinanceiratest_novafatura"
     },
     {
       "relation": "calls",
@@ -23232,9 +23466,9 @@
       "source_file": "demo4/src/test/java/pdv/demo4/model/FaturaFinanceiraTest.java",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_faturafinanceiratest_faturafinanceiratest_pagamentosemdataehrejeitadosemalterarestado",
-      "target": "model_faturafinanceiratest_faturafinanceiratest_novafatura",
-      "confidence_score": 1.0
+      "target": "model_faturafinanceiratest_faturafinanceiratest_novafatura"
     },
     {
       "relation": "calls",
@@ -23243,7 +23477,18 @@
       "source_file": "demo4/src/test/java/pdv/demo4/model/FaturaFinanceiraTest.java",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_faturafinanceiratest_faturafinanceiratest_estadoserializadocontinualigadoaocontextorestaurado",
+      "target": "model_faturafinanceiratest_faturafinanceiratest_novafatura"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "demo4/src/test/java/pdv/demo4/model/FaturaFinanceiraTest.java",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "model_faturafinanceiratest_faturafinanceiratest_faturaantigasemestadorecuperaseuestadoaoserdesserializada",
       "target": "model_faturafinanceiratest_faturafinanceiratest_novafatura",
       "confidence_score": 1.0
     },
@@ -23813,5 +24058,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "cdcffddc2092a710c9d324a2158c033b8fe45a37"
+  "built_at_commit": "d199aa310113601a804f544587f1c8b4c881296e"
 }

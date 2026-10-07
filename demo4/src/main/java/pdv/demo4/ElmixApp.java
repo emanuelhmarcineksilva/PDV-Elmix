@@ -269,6 +269,10 @@ public class ElmixApp extends Application {
 
         // helper para aplicar filtro e popular
         Runnable aplicarFiltro = () -> {
+            // A lista de faturas não depende do período das movimentações.
+            // Atualize-a antes de validar o filtro, que pode interromper o fluxo.
+            tela.setFaturas(financeiroController.getFaturas());
+
             String sel = tela.getComboPeriodo().getSelectionModel().getSelectedItem();
             LocalDate inicio, fim;
             String labelPeriodo;
@@ -305,7 +309,6 @@ public class ElmixApp extends Application {
             BigDecimal[] totais = financeiroController.calcularTotais(movs);
             Map<Empresa, BigDecimal> porFornecedor = financeiroController.agruparGastosPorFornecedor(movs);
             tela.popularDashboard(totais[0], totais[1], totais[2], porFornecedor, movs, labelPeriodo);
-            tela.setFaturas(financeiroController.getFaturas());
         };
 
         aplicarFiltro.run();
