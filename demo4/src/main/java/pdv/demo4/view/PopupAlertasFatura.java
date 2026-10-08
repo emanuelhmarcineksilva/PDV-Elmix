@@ -50,14 +50,14 @@ public final class PopupAlertasFatura {
 
         Label mensagem = new Label(formatarMensagem(evento));
         mensagem.setWrapText(true);
-        mensagem.setStyle("-fx-font-size: 13px; -fx-text-fill: #263238;");
+        mensagem.setStyle("-fx-font-size: 13px; -fx-text-fill: #0a0d0e;");
 
         Label detalhes = new Label(
                 (fatura.getDescricao().isBlank() ? "Fatura" : fatura.getDescricao())
                         + " — " + fatura.getEmpresa().getNomeRazao()
                         + " — R$ " + String.format("%.2f", fatura.getValor()));
         detalhes.setWrapText(true);
-        detalhes.setStyle("-fx-font-size: 12px; -fx-text-fill: #546E7A;");
+        detalhes.setStyle("-fx-font-size: 12px; -fx-text-fill: #0e1113;");
 
         Button verFatura = new Button("Ver fatura");
         verFatura.setStyle("-fx-background-color: #2E7D32; -fx-text-fill: white;");
