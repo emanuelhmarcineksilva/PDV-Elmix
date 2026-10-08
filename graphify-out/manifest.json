@@ -20,8 +20,8 @@
     "semantic_hash": ""
   },
   "demo4/src/main/java/pdv/demo4/ElmixApp.java": {
-    "mtime": 1791394693.6622148,
-    "ast_hash": "1aa4129d5c394610850d8a88a8485b81",
+    "mtime": 1791400768.8243525,
+    "ast_hash": "0ae2867cbfd7fdb7da02318ba066bdea",
     "semantic_hash": ""
   },
   "demo4/src/main/java/pdv/demo4/Launcher.java": {
@@ -35,8 +35,8 @@
     "semantic_hash": ""
   },
   "demo4/src/main/java/pdv/demo4/controller/FinanceiroController.java": {
-    "mtime": 1791392030.5829237,
-    "ast_hash": "6da7d2569d451fe47aad549ddedf22af",
+    "mtime": 1791399891.107808,
+    "ast_hash": "99ba1ad6cd00469c0d0fc0078c397da7",
     "semantic_hash": ""
   },
   "demo4/src/main/java/pdv/demo4/controller/VendaController.java": {
@@ -45,12 +45,12 @@
     "semantic_hash": ""
   },
   "demo4/src/main/java/pdv/demo4/model/Configuracao.java": {
-    "mtime": 1782487043.8591166,
-    "ast_hash": "9fdbb58d76f6aede8a34fa0d9c7e1c97",
-    "semantic_hash": "9fdbb58d76f6aede8a34fa0d9c7e1c97"
+    "mtime": 1791399878.7566206,
+    "ast_hash": "4e9977677b7138a92f394b1287971d55",
+    "semantic_hash": ""
   },
   "demo4/src/main/java/pdv/demo4/model/DadosFinanceiros.java": {
-    "mtime": 1791239655.3668628,
+    "mtime": 1791398936.7475016,
     "ast_hash": "b789ba89643cdf70b28a48d39418d34f",
     "semantic_hash": ""
   },
@@ -95,9 +95,9 @@
     "semantic_hash": ""
   },
   "demo4/src/main/java/pdv/demo4/view/TelaConfigView.java": {
-    "mtime": 1787938114.290566,
-    "ast_hash": "2bc77ea9879bec43bca071379ea2a770",
-    "semantic_hash": "2bc77ea9879bec43bca071379ea2a770"
+    "mtime": 1791399884.8278468,
+    "ast_hash": "8f6feb08bd989109e372bd61895a82a8",
+    "semantic_hash": ""
   },
   "demo4/src/main/java/pdv/demo4/view/TelaContaView.java": {
     "mtime": 1782492234.3190799,
@@ -105,8 +105,8 @@
     "semantic_hash": "7c6d0e84bc72e83e42c7a9ea72ab2d10"
   },
   "demo4/src/main/java/pdv/demo4/view/TelaFinanceiroView.java": {
-    "mtime": 1791392041.6069822,
-    "ast_hash": "55b908034460cf0fc5dac94164f3fc8e",
+    "mtime": 1791399927.8933678,
+    "ast_hash": "34234360692cfb46c664e72da6afb9c9",
     "semantic_hash": ""
   },
   "demo4/src/main/java/pdv/demo4/view/TelaHistoricoView.java": {
@@ -145,17 +145,17 @@
     "semantic_hash": ""
   },
   "demo4/src/main/java/pdv/demo4/model/EstadoFatura.java": {
-    "mtime": 1791391989.1380203,
+    "mtime": 1791398936.7475848,
     "ast_hash": "f6da464a7cc54258c162815cdd3146c4",
     "semantic_hash": ""
   },
   "demo4/src/main/java/pdv/demo4/model/FaturaFinanceira.java": {
-    "mtime": 1791394687.329276,
+    "mtime": 1791398936.7478898,
     "ast_hash": "8e59198dfad20c07f023d91545e472b5",
     "semantic_hash": ""
   },
   "demo4/src/test/java/pdv/demo4/model/FaturaFinanceiraTest.java": {
-    "mtime": 1791394705.7129767,
+    "mtime": 1791398936.7482524,
     "ast_hash": "fd8650061a14c8ee1443e5350bf49954",
     "semantic_hash": ""
   },
@@ -215,28 +215,88 @@
     "semantic_hash": ""
   },
   "demo4/src/main/java/pdv/demo4/model/EstadoFaturaAberta.java": {
-    "mtime": 1791391995.8743975,
+    "mtime": 1791398936.74766,
     "ast_hash": "b19ddbddae7dbdc777c703b34c954c3d",
     "semantic_hash": ""
   },
   "demo4/src/main/java/pdv/demo4/model/EstadoFaturaAtrasada.java": {
-    "mtime": 1791392002.2574832,
+    "mtime": 1791398936.7477317,
     "ast_hash": "47cb34c5770527fe0f023a1c80d2ed0e",
     "semantic_hash": ""
   },
   "demo4/src/main/java/pdv/demo4/model/EstadoFaturaQuitada.java": {
-    "mtime": 1791392011.5532794,
+    "mtime": 1791398936.7478004,
     "ast_hash": "f0a084e52d092b5958dc2e64e0cef95a",
     "semantic_hash": ""
   },
   "StateExemple.md": {
-    "mtime": 1791391755.2367446,
+    "mtime": 1791398936.7461374,
     "ast_hash": "fc1ebd3202b31e4bedb2b8281504d9b1",
     "semantic_hash": ""
   },
   "Observer.md": {
-    "mtime": 1791393988.6541913,
+    "mtime": 1791398936.7451375,
     "ast_hash": "9973c24a4c9f56916a9ea569b7398eb5",
+    "semantic_hash": ""
+  },
+  "demo4/src/main/java/pdv/demo4/controller/AssinaturaEventoFatura.java": {
+    "mtime": 1791400035.9940183,
+    "ast_hash": "6c18f335afa472dcce9b360fe0f85ba6",
+    "semantic_hash": ""
+  },
+  "demo4/src/main/java/pdv/demo4/controller/EventoFatura.java": {
+    "mtime": 1791399850.3591897,
+    "ast_hash": "8644c48234d5b3b975ba9645fab6b37f",
+    "semantic_hash": ""
+  },
+  "demo4/src/main/java/pdv/demo4/controller/EventoFinanceiro.java": {
+    "mtime": 1791399650.4821818,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "demo4/src/main/java/pdv/demo4/controller/GerenciadorEventosFatura.java": {
+    "mtime": 1791399865.942426,
+    "ast_hash": "874730ad8e060b15f15860e1354e85d0",
+    "semantic_hash": ""
+  },
+  "demo4/src/main/java/pdv/demo4/controller/ObservadorFatura.java": {
+    "mtime": 1791399854.7172558,
+    "ast_hash": "5b45fc6c12ade8eb843fa086b2b36f04",
+    "semantic_hash": ""
+  },
+  "demo4/src/main/java/pdv/demo4/controller/PoliticaAlertasFatura.java": {
+    "mtime": 1791399873.1945362,
+    "ast_hash": "80d801a4afe26a6deff378c1b425bfd3",
+    "semantic_hash": ""
+  },
+  "demo4/src/main/java/pdv/demo4/controller/TipoEventoFatura.java": {
+    "mtime": 1791399844.3630989,
+    "ast_hash": "68dfe3d4c5611113b43ec1c3ef73e890",
+    "semantic_hash": ""
+  },
+  "demo4/src/main/java/pdv/demo4/view/PopupAlertasFatura.java": {
+    "mtime": 1791400762.0142467,
+    "ast_hash": "c915cf5167b51db8988f4cdc46ad9e7a",
+    "semantic_hash": ""
+  },
+  "demo4/src/test/java/pdv/demo4/controller/GerenciadorEventosFaturaTest.java": {
+    "mtime": 1791399975.6130953,
+    "ast_hash": "520853930a356b2e6fb67b6b76a422e2",
+    "semantic_hash": ""
+  },
+  "demo4/src/test/java/pdv/demo4/controller/PoliticaAlertasFaturaTest.java": {
+    "mtime": 1791399983.1572104,
+    "ast_hash": "5e270cbeb1eabfa936caa57e6b0d0aa5",
+    "semantic_hash": ""
+  },
+  "demo4/src/test/java/pdv/demo4/model/ConfiguracaoTest.java": {
+    "mtime": 1791400777.4193697,
+    "ast_hash": "a35befbe295dc85e3ab61eedaeb16ee3",
+    "semantic_hash": ""
+  },
+  "demo4/PADROES_DE_DESIGN.md": {
+    "mtime": 1791399997.8609912,
+    "ast_hash": "6e5c719f94c9573a1e619e24a3e6bf94",
     "semantic_hash": ""
   }
 }

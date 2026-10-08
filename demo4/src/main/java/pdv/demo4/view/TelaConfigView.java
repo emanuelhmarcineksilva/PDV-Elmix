@@ -17,7 +17,8 @@ public class TelaConfigView {
     private BorderPane root;
     private Configuracao config;
     private Button btnVoltar, btnSalvar, btnRestaurar;
-    private TextField txtNomeLoja, txtCorPrincipal, txtCorBotoes, txtCorTextoBotoes, txtLinkSite, txtRaioBorda;
+    private TextField txtNomeLoja, txtCorPrincipal, txtCorBotoes, txtCorTextoBotoes;
+    private TextField txtLinkSite, txtRaioBorda, txtDiasAlertaFatura;
     private CheckBox chkBordaArredondada, chkAnimacoes;
 
     public TelaConfigView(Configuracao config) {
@@ -52,6 +53,8 @@ public class TelaConfigView {
         txtCorTextoBotoes = criarCampo("Cor Texto Botões (hex)", config.getCorTextoBotoes());
         txtLinkSite = criarCampo("Link do Site", config.getLinkSite());
         txtRaioBorda = criarCampo("Raio da Borda", String.valueOf(config.getRaioBorada()));
+        txtDiasAlertaFatura = criarCampo(
+                "Dias de antecedência do alerta", String.valueOf(config.getDiasAlertaFatura()));
 
         chkBordaArredondada = new CheckBox("Borda Arredondada");
         chkBordaArredondada.setFont(Font.font("Arial", 18));
@@ -77,6 +80,7 @@ public class TelaConfigView {
             criarLinha("Cor Texto Botões:", txtCorTextoBotoes),
             criarLinha("Link Site:", txtLinkSite),
             criarLinha("Raio Borda:", txtRaioBorda),
+            criarLinha("Aviso de fatura (dias antes):", txtDiasAlertaFatura),
             chkBordaArredondada, chkAnimacoes,
             linhaBotoes
         );
@@ -131,6 +135,7 @@ public class TelaConfigView {
     public TextField getTxtCorTextoBotoes() { return txtCorTextoBotoes; }
     public TextField getTxtLinkSite() { return txtLinkSite; }
     public TextField getTxtRaioBorda() { return txtRaioBorda; }
+    public TextField getTxtDiasAlertaFatura() { return txtDiasAlertaFatura; }
     public CheckBox getChkBordaArredondada() { return chkBordaArredondada; }
     public CheckBox getChkAnimacoes() { return chkAnimacoes; }
 }

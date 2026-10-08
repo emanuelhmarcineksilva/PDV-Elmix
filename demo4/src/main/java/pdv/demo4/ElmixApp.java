@@ -1,5 +1,7 @@
 package pdv.demo4;
 
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.collections.FXCollections;
@@ -24,11 +26,15 @@ import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
+import javafx.util.Duration;
 import javafx.stage.FileChooser;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
+import pdv.demo4.controller.AssinaturaEventoFatura;
 import pdv.demo4.controller.ConfiguracaoController;
 import pdv.demo4.controller.FinanceiroController;
+import pdv.demo4.controller.ObservadorFatura;
+import pdv.demo4.controller.TipoEventoFatura;
 import pdv.demo4.controller.VendaController;
 import pdv.demo4.model.Configuracao;
 import pdv.demo4.model.Empresa;
@@ -50,6 +56,7 @@ import java.nio.file.Files;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
@@ -66,6 +73,11 @@ public class ElmixApp extends Application {
     private VendaController vendaController;
     private ConfiguracaoController configController;
     private FinanceiroController financeiroController;
+    private final List<AssinaturaEventoFatura> assinaturasAlertas = new ArrayList<>();
+    private AssinaturaEventoFatura observadorTelaFinanceira;
+    private PopupAlertasFatura popupAlertasFatura;
+    private Timeline verificacaoDiariaFaturas;
+    private LocalDate ultimaDataVerificada;
 
     // Views
     private TelaInicialView telaInicial;
@@ -86,6 +98,8 @@ public class ElmixApp extends Application {
         vendaController = new VendaController();
         configController = new ConfiguracaoController();
         financeiroController = new FinanceiroController();
+        popupAlertasFatura = new PopupAlertasFatura(stage, this::mostrarTelaFinanceiro);
+        observarAlertasFatura();
 
         // Mostra a tela inicial
         mostrarTelaInicial();
@@ -97,12 +111,53 @@ public class ElmixApp extends Application {
         stage.setMinHeight(600);
         stage.setMaximized(true);
         stage.show();
+
+        verificacaoDiariaFaturas = new Timeline(
+                new KeyFrame(Duration.minutes(1), evento -> verificarAlertasDoDia()));
+        verificacaoDiariaFaturas.setCycleCount(Timeline.INDEFINITE);
+        verificacaoDiariaFaturas.play();
+        Platform.runLater(this::verificarAlertasDoDia);
+    }
+
+    @Override
+    public void stop() {
+        if (verificacaoDiariaFaturas != null) {
+            verificacaoDiariaFaturas.stop();
+        }
+        cancelarObservacaoTelaFinanceira();
+        assinaturasAlertas.forEach(AssinaturaEventoFatura::close);
+        assinaturasAlertas.clear();
+        if (popupAlertasFatura != null) {
+            popupAlertasFatura.fechar();
+        }
+    }
+
+    /** O app observa os eventos de lembrete e os encaminha para o popup. */
+    private void observarAlertasFatura() {
+        for (TipoEventoFatura tipo : List.of(
+                TipoEventoFatura.LEMBRETE_VENCIMENTO,
+                TipoEventoFatura.VENCIMENTO_HOJE,
+                TipoEventoFatura.FATURA_ATRASADA)) {
+            assinaturasAlertas.add(financeiroController.getEventosFatura().inscrever(
+                    tipo, evento -> Platform.runLater(() -> popupAlertasFatura.mostrar(evento))));
+        }
+    }
+
+    /** Verifica uma vez por data, tanto ao iniciar quanto durante a execução. */
+    private void verificarAlertasDoDia() {
+        LocalDate hoje = LocalDate.now();
+        if (!hoje.equals(ultimaDataVerificada)) {
+            ultimaDataVerificada = hoje;
+            financeiroController.verificarAlertasFaturas(
+                    configController.getConfiguracao().getDiasAlertaFatura());
+        }
     }
 
     /**
      * Troca a tela atual reaproveitando a Scene para evitar bugs de maximização.
      */
     private void trocarTela(javafx.scene.Parent root, javafx.event.EventHandler<javafx.scene.input.KeyEvent> handler) {
+        cancelarObservacaoTelaFinanceira();
         if (stage.getScene() == null) {
             Scene s = new Scene(root);
             s.setOnKeyPressed(handler);
@@ -261,6 +316,11 @@ public class ElmixApp extends Application {
     // ===================== TELA GESTÃO FINANCEIRA (MVP) =====================
 
     private void mostrarTelaFinanceiro() {
+        mostrarTelaFinanceiro(null);
+    }
+
+    /** Abre a gestão e, quando veio de um lembrete, seleciona a fatura. */
+    private void mostrarTelaFinanceiro(String idFatura) {
         Configuracao cfg = configController.getConfiguracao();
         TelaFinanceiroView tela = new TelaFinanceiroView(cfg);
 
@@ -355,7 +415,6 @@ public class ElmixApp extends Application {
                 if (resposta == ButtonType.YES) {
                     try {
                         financeiroController.quitarFatura(fatura.getId());
-                        aplicarFiltro.run();
                         tela.setStatus("Fatura quitada e saída registrada no fluxo de caixa.", false);
                     } catch (Exception ex) {
                         tela.setStatus("Erro ao quitar fatura: " + ex.getMessage(), true);
@@ -417,7 +476,6 @@ public class ElmixApp extends Application {
                     financeiroController.registrarFatura(valor, emp, dataHora.toLocalDate(), descricao);
                     tela.limparFormSaida();
                     tela.setEmpresas(financeiroController.getEmpresasAtivas());
-                    aplicarFiltro.run();
                     tela.setStatus("Fatura de R$ " + String.format("%.2f", valor)
                             + " cadastrada para " + dataHora.toLocalDate().format(DateTimeFormatter.ofPattern("dd/MM/yyyy")), false);
                     return;
@@ -435,6 +493,39 @@ public class ElmixApp extends Application {
         });
 
         trocarTela(tela.getRoot(), ev -> { if (ev.getCode() == KeyCode.ESCAPE) mostrarTelaInicial(); });
+        if (idFatura != null) {
+            tela.abrirAbaFaturas(idFatura);
+        }
+        observarAlteracoesFaturaNaTela(tela, aplicarFiltro);
+    }
+
+    /**
+     * A tela financeira é observadora apenas enquanto está ativa. Assim ela
+     * atualiza a tabela e os totais ao receber cadastro ou quitação.
+     */
+    private void observarAlteracoesFaturaNaTela(TelaFinanceiroView tela, Runnable atualizarTela) {
+        ObservadorFatura observador = evento -> Platform.runLater(() -> {
+            if (stage.getScene() == null || stage.getScene().getRoot() != tela.getRoot()) {
+                return;
+            }
+            atualizarTela.run();
+        });
+        var eventos = financeiroController.getEventosFatura();
+        AssinaturaEventoFatura assinaturaCriacao =
+                eventos.inscrever(TipoEventoFatura.FATURA_CRIADA, observador::atualizar);
+        AssinaturaEventoFatura assinaturaQuitacao =
+                eventos.inscrever(TipoEventoFatura.FATURA_QUITADA, observador::atualizar);
+        observadorTelaFinanceira = new AssinaturaEventoFatura(() -> {
+            assinaturaCriacao.close();
+            assinaturaQuitacao.close();
+        });
+    }
+
+    private void cancelarObservacaoTelaFinanceira() {
+        if (observadorTelaFinanceira != null) {
+            observadorTelaFinanceira.close();
+            observadorTelaFinanceira = null;
+        }
     }
 
     // ===================== TELA PDV =====================
@@ -1417,11 +1508,29 @@ public class ElmixApp extends Application {
 
         // Botão salvar configurações
         telaConfig.getBtnSalvar().setOnAction(e -> {
+            int diasAlertaFatura;
+            try {
+                diasAlertaFatura = Integer.parseInt(
+                        telaConfig.getTxtDiasAlertaFatura().getText().trim());
+                if (diasAlertaFatura < 0 || diasAlertaFatura > 365) {
+                    throw new IllegalArgumentException(
+                            "Informe um valor entre 0 e 365 dias para o alerta.");
+                }
+            } catch (NumberFormatException ex) {
+                mostrarAlerta("Configuração inválida",
+                        "Os dias de antecedência devem ser um número inteiro entre 0 e 365.");
+                return;
+            } catch (IllegalArgumentException ex) {
+                mostrarAlerta("Configuração inválida", ex.getMessage());
+                return;
+            }
+
             cfg.setNomeLoja(telaConfig.getTxtNomeLoja().getText());
             cfg.setCorPrincipal(telaConfig.getTxtCorPrincipal().getText());
             cfg.setCorBotoes(telaConfig.getTxtCorBotoes().getText());
             cfg.setCorTextoBotoes(telaConfig.getTxtCorTextoBotoes().getText());
             cfg.setLinkSite(telaConfig.getTxtLinkSite().getText());
+            cfg.setDiasAlertaFatura(diasAlertaFatura);
             cfg.setBordaArredondada(telaConfig.getChkBordaArredondada().isSelected());
             cfg.setAnimacoesAtivas(telaConfig.getChkAnimacoes().isSelected());
             try {

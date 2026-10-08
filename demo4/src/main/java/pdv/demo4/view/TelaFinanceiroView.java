@@ -67,6 +67,8 @@ public class TelaFinanceiroView {
     // lista recentes
     private ListView<MovimentacaoCaixa> listaMovs;
     private TableView<FaturaFinanceira> tabelaFaturas;
+    private TabPane abasFinanceiras;
+    private Tab abaFaturas;
     private Label lblStatus;
     private Consumer<MovimentacaoCaixa> onMovimentacaoRemoveHandler;
     private Consumer<FaturaFinanceira> onFaturaQuitarHandler;
@@ -360,13 +362,13 @@ public class TelaFinanceiroView {
 
         tabelaFaturas = criarTabelaFaturas();
         Tab abaMovimentacoes = new Tab("Movimentações", listaMovs);
-        Tab abaFaturas = new Tab("Faturas", tabelaFaturas);
+        abaFaturas = new Tab("Faturas", tabelaFaturas);
         abaMovimentacoes.setClosable(false);
         abaFaturas.setClosable(false);
-        TabPane abas = new TabPane(abaMovimentacoes, abaFaturas);
-        VBox.setVgrow(abas, Priority.ALWAYS);
+        abasFinanceiras = new TabPane(abaMovimentacoes, abaFaturas);
+        VBox.setVgrow(abasFinanceiras, Priority.ALWAYS);
 
-        VBox listaBox = new VBox(10, titLista, abas);
+        VBox listaBox = new VBox(10, titLista, abasFinanceiras);
         listaBox.setPadding(new Insets(16));
         listaBox.setStyle(cardStyle());
         HBox.setHgrow(listaBox, Priority.ALWAYS);
@@ -535,6 +537,18 @@ public class TelaFinanceiroView {
         // O estado é mutável dentro da mesma fatura; forçamos a tabela a
         // recalcular texto, cor e botão após uma quitação confirmada.
         tabelaFaturas.refresh();
+    }
+
+    /** Abre a aba de faturas e seleciona a fatura indicada pelo lembrete. */
+    public void abrirAbaFaturas(String idFatura) {
+        abasFinanceiras.getSelectionModel().select(abaFaturas);
+        tabelaFaturas.getItems().stream()
+                .filter(fatura -> fatura.getId().equals(idFatura))
+                .findFirst()
+                .ifPresent(fatura -> {
+                    tabelaFaturas.getSelectionModel().select(fatura);
+                    tabelaFaturas.scrollTo(fatura);
+                });
     }
 
     public LocalDateTime getDataHoraSaida() {
