@@ -18,6 +18,8 @@ public class Configuracao implements Serializable {
     private boolean animacoesAtivas;   // Se as animações estão ativas
     private String linkSite;           // Link para o site da loja
     private double raioBorada;         // Raio da borda arredondada
+    // Wrapper para detectar configuração antiga desserializada sem este campo.
+    private Integer diasAlertaFatura = 2;
 
     // Construtor com valores padrão
     public Configuracao() {
@@ -60,4 +62,17 @@ public class Configuracao implements Serializable {
 
     public double getRaioBorada() { return raioBorada; }
     public void setRaioBorada(double raioBorada) { this.raioBorada = raioBorada; }
+
+    /** Número de dias de antecedência; zero desativa apenas o lembrete pré-vencimento. */
+    public int getDiasAlertaFatura() {
+        return diasAlertaFatura == null ? 2 : diasAlertaFatura;
+    }
+
+    public void setDiasAlertaFatura(int diasAlertaFatura) {
+        if (diasAlertaFatura < 0 || diasAlertaFatura > 365) {
+            throw new IllegalArgumentException(
+                    "Os dias de antecedência devem estar entre 0 e 365");
+        }
+        this.diasAlertaFatura = diasAlertaFatura;
+    }
 }

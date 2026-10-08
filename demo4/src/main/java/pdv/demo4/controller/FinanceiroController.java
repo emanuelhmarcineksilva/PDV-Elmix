@@ -24,6 +24,7 @@ public class FinanceiroController {
     private static final String PASTA_SPEC = "dados";
 
     private DadosFinanceiros dados;
+    private final GerenciadorEventosFatura eventosFatura = new GerenciadorEventosFatura();
 
     public FinanceiroController() {
         this.dados = carregarDados();
@@ -174,6 +175,23 @@ public class FinanceiroController {
                 .collect(Collectors.toList());
     }
 
+    /** A interface e outros interessados inscrevem-se sem depender do armazenamento. */
+    public GerenciadorEventosFatura getEventosFatura() {
+        return eventosFatura;
+    }
+
+    /**
+     * Publica os lembretes aplicáveis para a data atual.
+     * A aplicação chama este método ao iniciar e uma vez a cada novo dia.
+     */
+    public void verificarAlertasFaturas(int diasDeAntecedencia) {
+        LocalDate hoje = LocalDate.now();
+        for (FaturaFinanceira fatura : getFaturas()) {
+            PoliticaAlertasFatura.avaliar(fatura, hoje, diasDeAntecedencia)
+                    .ifPresent(eventosFatura::publicar);
+        }
+    }
+
     public synchronized FaturaFinanceira registrarFatura(BigDecimal valor, Empresa empresa,
                                                           LocalDate dataVencimento, String descricao) {
         if (valor == null || valor.compareTo(BigDecimal.ZERO) <= 0) {
@@ -193,6 +211,8 @@ public class FinanceiroController {
         );
         dados.getFaturas().add(fatura);
         salvarDados();
+        eventosFatura.publicar(new EventoFatura(
+                TipoEventoFatura.FATURA_CRIADA, fatura, 0));
         return fatura;
     }
 
@@ -218,6 +238,8 @@ public class FinanceiroController {
         );
         dados.getMovimentacoes().add(movimentacao);
         salvarDados();
+        eventosFatura.publicar(new EventoFatura(
+                TipoEventoFatura.FATURA_QUITADA, fatura, 0));
         return movimentacao;
     }
 
