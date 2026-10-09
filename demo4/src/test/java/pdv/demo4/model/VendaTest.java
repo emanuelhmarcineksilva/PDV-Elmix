@@ -8,12 +8,13 @@ import static org.junit.jupiter.api.Assertions.assertNotSame;
 class VendaTest {
 
     @Test
-    void copiarComoNovaCriaVendaIndependenteComItensEsemPagamento() {
+    void cloneCriaVendaIndependenteComItensEsemPagamento() {
         Venda original = new Venda(1);
         original.adicionarItem(new ItemVenda("Produto", 12.50));
         original.finalizarVenda(20.00);
 
-        Venda copia = original.copiarComoNova(2);
+        Venda copia = original.clone();
+        copia.setId(2);
 
         assertEquals(2, copia.getId());
         assertEquals(12.50, copia.getTotalVenda());

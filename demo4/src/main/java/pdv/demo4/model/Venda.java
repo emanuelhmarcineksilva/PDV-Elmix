@@ -10,7 +10,7 @@ import java.util.List;
  * Representa uma venda completa com seus itens.
  * Guarda data/hora, lista de itens, valor pago e troco.
  */
-public class Venda implements Serializable {
+public class Venda implements Serializable, Prototype {
     private static final long serialVersionUID = 1L;
 
     private int id;                        // Identificador da venda
@@ -30,10 +30,12 @@ public class Venda implements Serializable {
     }
 
     /**
-     * Cria uma nova venda a partir deste protótipo, copiando os itens sem compartilhar estado.
+     * Clona esta venda (Prototype): copia os itens sem compartilhar estado,
+     * mantendo o id atual. Pagamento e troco não são copiados.
      */
-    public Venda copiarComoNova(int novoId) {
-        Venda copia = new Venda(novoId);
+    @Override
+    public Venda clone() {
+        Venda copia = new Venda(id);
         for (ItemVenda item : itens) {
             copia.adicionarItem(new ItemVenda(item.getNomeProduto(), item.getValor()));
         }
@@ -78,6 +80,10 @@ public class Venda implements Serializable {
 
     public int getId() {
         return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public List<ItemVenda> getItens() {

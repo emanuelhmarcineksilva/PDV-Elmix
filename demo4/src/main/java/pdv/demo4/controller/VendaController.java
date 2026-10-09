@@ -52,7 +52,12 @@ public class VendaController {
             novoId = proximoId++;
             ultimoIdGlobal = novoId;
         }
-        vendaAtual = prototipo == null ? new Venda(novoId) : prototipo.copiarComoNova(novoId);
+        if (prototipo == null) {
+            vendaAtual = new Venda(novoId);
+        } else {
+            vendaAtual = prototipo.clone();
+            vendaAtual.setId(novoId);
+        }
         return vendaAtual;
     }
 
